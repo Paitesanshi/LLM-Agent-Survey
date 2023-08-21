@@ -17,7 +17,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
 - [8/23/2023] The first version of the paper is released on arXiv: [A Survey on LLM-based Autonomous AI Agents]()
 
 ## Timeline of LLM-based Autonomous Agent
-![Timeline](assets/Timeline.png)
+![Timeline](assets/timeline.png)
 
 ## Agent Architecture Design
 ![Architecture Design](assets/architecture.png)
