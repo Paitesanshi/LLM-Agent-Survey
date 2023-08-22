@@ -632,274 +632,274 @@ td{
         <td>Code</td>
     </tr>
     <tr>
-        <td>WebShop cite{yao2022webshop</td>
+        <td>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</td>
         <td>-</td>
-        <td>whitecircle{1 whitecircle{2 whitecircle{4</td>
+        <td>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
         <td>&check;</td>
         <td>07/2022</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2207.01206">Paper</a></td>
+        <td><a href="https://github.com/princeton-nlp/webshop">Code</a></td>
     </tr>
     <tr>
-        <td>Social Simulacra cite{park2022social</td>
-        <td>whitecircle{1</td>
-        <td>whitecircle{3</td>
+        <td>Social Simulacra: Creating Populated Prototypes for Social Computing Systems </td>
+        <td>Human Annotation</td>
+        <td>Social Evaluation</td>
         <td>-</td>
         <td>08/2022</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>TE cite{aher2023using</td>
+        <td>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
         <td>-</td>
-        <td>whitecircle{3</td>
+        <td>Social Evaluation</td>
         <td>-</td>
         <td>08/2022</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2208.10264">Paper</a></td>
+        <td><a href="https://github.com/GatiAher/UsingLarge-Language-Models-to-Replicate-Human-Subject-Studies">Code</a></td>
     </tr>
     <tr>
-        <td>LIBRO cite{kang2023large</td>
+        <td>Large Language Models are Few-Shot Testers: Exploring LLM-based General Bug Reproduction</td>
         <td>-</td>
-        <td>whitecircle{5</td>
+        <td>Software Testing</td>
         <td>-</td>
         <td>09/2022</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2209.11515">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>ReActcite{yao2022react</td>
+        <td>ReAct: Synergizing Reasoning and Acting in Language Models</td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>10/2022</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
+        <td><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td>Out of One, Manycite{argyle2023out</td>
-        <td>whitecircle{2</td>
-        <td>whitecircle{2 whitecircle{4</td>
+        <td>Out of One, Many: Using Language Models to Simulate Human Samples</td>
+        <td>Turing Test</td>
+        <td> Isolated Reasoning;<br> Multi-task Evaluation</td>
         <td>-</td>
-        <td>02/2023</td>
-        <td></td>
-        <td></td>
+        <td>02/2023</td>        
+        <td><a href="https://arxiv.org/abs/2209.06899">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>DEPScite{wang2023describe</td>
+        <td>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents </td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>02/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>Jalil et al.cite{jalil2023chatgpt</td>
+        <td>ChatGPT and Software Testing Education: Promises & Perils</td>
         <td>-</td>
-        <td>whitecircle{5</td>
+        <td>Software Testing</td>
         <td>-</td>
         <td>02/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2302.03287">Paper</a></td>
+        <td><a href="https://github.com/sajedjalil/ChatGPT-Software-Testing-Stud">Code</a></td>
     </tr>
     <tr>
-        <td>Reflexioncite{shinn2023reflexion</td>
+        <td>Reflexion: Language Agents with Verbal Reinforcement Learning</td>
         <td>-</td>
-        <td>whitecircle{2</td>
+        <td>Isolated Reasoning</td>
         <td>-</td>
         <td>03/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
+        <td><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td>IGLUcite{mehta2023improving</td>
+        <td>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>04/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2304.10750">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>LLM+Pcite{liu2023llm+</td>
+        <td>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td>
         <td>-</td>
-        <td>whitecircle{2</td>
+        <td>Isolated Reasoning</td>
         <td>-</td>
         <td>04/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>Generative Agentscite{park2023generative</td>
-        <td>whitecircle{1whitecircle{2</td>
+        <td>Generative Agents: Interactive Simulacra of Human Behavior</td>
+        <td> Human Annoation;<br>Turing Experiment</td>
         <td>-</td>
         <td>-</td>
         <td>04/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
+        <td><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td>ToolBenchcite{qin2023toolbench</td>
-        <td>-</td>
-        <td>whitecircle{4</td>
+        <td>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td>Human Annoation</td>
+        <td>Multi-task Evalution</td>
         <td>&check;</td>
         <td>04/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
+        <td><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td>GITMcite{zhu2023ghost</td>
+        <td>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment simulation</td>
         <td>&check;</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
+        <td><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td>Two-Failurescite{chen2023two</td>
+        <td>Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs </td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simulation</td>
         <td>-</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.14279">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>Voyagercite{wang2023voyager</td>
+        <td>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simulation</td>
         <td>&check;</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
+        <td><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td>SocKET cite{choi2023socket</td>
+        <td>Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SOCKET Benchmark </td>
         <td>-</td>
-        <td>whitecircle{2 whitecircle{3 whitecircle{4</td>
+        <td>Isolated Reasoning;<br> Social Evaluation;<br>Multi-task Evaluation </td>
         <td>&check;</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.14938">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>MobileEnv cite{zhang2023mobileenv</td>
+        <td>Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era</td>
         <td>-</td>
-        <td>whitecircle{1 whitecircle{2 whitecircle{4</td>
+        <td>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
         <td>&check;</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.08144">Paper</a></td>
+        <td><a href="https://github.com/X-LANCE/Mobile-Env">Code</a></td>
     </tr>
     <tr>
-        <td>clembench cite{zhang2023mobileenv</td>
+        <td>Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents</td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>05/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
+        <td><a href="https://github.com/clp-research/clembench">Code</a></td>
     </tr>
     <tr>
-        <td>Dialop&nbsp;cite{lin2023decision</td>
+        <td>Decision-Oriented Dialogue for Human–AI Collaboration</td>
         <td>-</td>
-        <td>whitecircle{3</td>
+        <td>Social Evaluation</td>
         <td>&check;</td>
         <td>06/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2305.20076">Paper</a></td>
+        <td><a href="https://github.com/jlin816/dialop">Code</a></td>
     </tr>
     <tr>
-        <td>ChatDBcite{hu2023chatdb</td>
+        <td>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
         <td>-</td>
-        <td>whitecircle{2</td>
+        <td>Isolated Reasoning</td>
         <td>-</td>
         <td>06/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>Feldt et al.cite{feldt2023towards</td>
+        <td>Towards Autonomous Testing Agents via Conversational Large Language Models</td>
         <td>-</td>
-        <td>whitecircle{5</td>
+        <td>Software Testing</td>
         <td>-</td>
         <td>06/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2306.05152">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>CO-LLM cite{zhang2023building</td>
-        <td>whitecircle{1</td>
-        <td>whitecircle{1</td>
+        <td>Building Cooperative Embodied Agents Modularly with Large Language Models</td>
+        <td>Human Annoation</td>
+        <td>Environment Simulation</td>
         <td>-</td>
         <td>07/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2307.02485">Paper</a></td>
+        <td><a href="https://vis-www.cs.umass.edu/Co-LLM-Agents/">Code</a></td>
     </tr>
     <tr>
-        <td>Tachikumacite{liang2023tachikuma</td>
-        <td>whitecircle{1</td>
-        <td>whitecircle{1</td>
+        <td>Tachikuma: Understading Complex Interactions with Multi-Character and Novel Objects by Large Language Models</td>
+        <td>Human Annoation</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>07/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2307.12573">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>ChatDevcite{qian2023communicative</td>
+        <td>Communicative Agents for Software Development</td>
         <td>-</td>
-        <td>whitecircle{2</td>
+        <td>Isolated Reasoning</td>
         <td>-</td>
         <td>07/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>WebArena&nbsp;cite{zhou2023webarena</td>
+        <td>WebArena: A Realistic Web Environment for Building Autonomous Agents</td>
         <td>-</td>
-        <td>whitecircle{1</td>
+        <td>Environment Simluation</td>
         <td>&check;</td>
         <td>07/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2307.13854">Paper</a></td>
+        <td><a href="https://github.com/web-arena-x/webarena">Code</a></td>
     </tr>
     <tr>
-        <td>AgentSimscite{lin2023agentsims</td>
+        <td>AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</td>
         <td>-</td>
-        <td>whitecircle{3</td>
+        <td>Social Evaluation</td>
         <td>-</td>
         <td>08/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2308.04026">Paper</a></td>
+        <td><a href="https://github.com/py499372727/AgentSims">Code</a></td>
     </tr>
     <tr>
-        <td>AgentBenchcite{liu2023agentbench</td>
+        <td>AgentBench: Evaluating LLMs as Agents</td>
         <td>-</td>
-        <td>whitecircle{4</td>
+        <td>Multi-task Evaluation</td>
         <td>&check;</td>
         <td>08/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2308.03688">Paper</a></td>
+        <td><a href="https://github.com/thudm/agentbench">Code</a></td>
     </tr>
     <tr>
-        <td>BOLAAcite{liu2023bolaa</td>
+        <td>BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents</td>
         <td>-</td>
-        <td>whitecircle{1 whitecircle{4 whitecircle{5</td>
+        <td>Environment Simulation;<br>Multi-task Evaluation;<br>Software Testing</td>
         <td>&check;</td>
         <td>08/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2308.05960">Paper</a></td>
+        <td><a href="https://github.com/salesforce/BOLAA">Code</a></td>
     </tr>
     <tr>
-        <td>Gentopia&nbsp;cite{xu2023gentopia</td>
+        <td>Gentopia: A Collaborative Platform for Tool-Augmented LLMs</td>
         <td>-</td>
-        <td>whitecircle{2 whitecircle{4</td>
+        <td>Isolated Reasoning;<br> Multi-task Evaluation </td>
         <td>&check;</td>
         <td>08/2023</td>
-        <td></td>
-        <td></td>
+        <td><a href="https://arxiv.org/abs/2308.04030">Paper</a></td>
+        <td><a href="https://github.com/Gentopia-AI/Gentopia">Code</a></td>
     </tr>
 </table>
 
