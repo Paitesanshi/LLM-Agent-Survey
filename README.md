@@ -732,7 +732,7 @@ td{
     </tr>
     <tr>
         <td>Generative Agents: Interactive Simulacra of Human Behavior</td>
-        <td> Human Annoation;<br>Turing Experiment</td>
+        <td> Human Annoation;<br>Turing Test</td>
         <td>-</td>
         <td>-</td>
         <td>04/2023</td>
