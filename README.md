@@ -39,481 +39,386 @@ td{
         <td rowspan='2'>Planning</td>
         <td rowspan='2'>Action</td>
         <td rowspan='2'>LS</td>
-        <td rowspan='2'>Time</td>
+        <td rowspan='2'>Time</td>        
+        <td rowspan='2'>Paper</td>
+        <td rowspan='2'>Code</td>
     </tr>
     <tr>
         <td>Operation</td>
         <td>Structure</td>
     </tr>
     <tr>
-        <td>WebGPT\cite{nakano2021webgpt}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
+        <td>WebGPT: Browser-assisted question-answering with human feedback</td>
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>w/ tools</td> 
+        <td>Human feedback</td> 
         <td>12/2021</td>
+        <td><a href="https://arxiv.org/abs/2112.09332">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>SayCan\cite{ahn2022can}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{3}</td>
-        <td>04/2022</td>
+        <td>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/o feedback</td> 
+        <td>w/ tools</td> 
+        <td>Environment feedback</td>  
+        <td>04/2022</td> 
+        <td><a href="https://arxiv.org/abs/2204.01691">Paper</a></td>
+        <td><a href="https://say-can.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td>MRKL\cite{karpas2022mrkl}</td>
+        <td>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/o feedback</td> 
+        <td>w/ tools</td> 
+        <td>-</td>  
+        <td>05/2022</td> 
+        <td><a href="https://arxiv.org/abs/2205.00445">Paper</a></td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>05/2022</td>
     </tr>
     <tr>
-        <td>%Translated LLM~\cite{huang2022language}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>07/2022</td>
+        <td>Inner Monologue: Embodied Reasoning through Planning with Language Models</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ feedback</td> 
+        <td>w/ tools</td> 
+        <td>Environment feedback</td> 
+        <td>07/2022</td> 
+        <td><a href="https://arxiv.org/abs/2207.05608">Paper</a></td>
+        <td><a href="https://innermonologue.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td>% Inner Monologue\cite{huang2022inner}</td>
+        <td>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>  
+        <td>GPT-Generated</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/o tools</td> 
+        <td>-</td>   
+        <td>08/2022</td> 
+        <td><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{3}</td>
-        <td>07/2022</td>
     </tr>
     <tr>
-        <td>Social Simulacra\cite{park2022social}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>08/2022</td>
+        <td>ReAct: Synergizing Reasoning and Acting in Language Models</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ feedback</td> 
+        <td>w/ tools</td> 
+        <td>Environment feedback</td> 
+        <td>10/2022</td> 
+        <td><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
+        <td><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td>% Silicon Samples\cite{argyle2023out}</td>
-        <td>\whitecircle{3}</td>
+        <td>REPLUG: Retrieval-Augmented Black-Box Language Models</td> 
+        <td>-</td>  
+        <td>Read/Write/Reflection</td> 
+        <td>Unified</td> 
+        <td>-</td>  
+        <td>w/o tools</td> 
+        <td>-</td>  
+        <td>01/2023</td> 
+        <td><a href="https://arxiv.org/abs/2301.12652">Paper</a></td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>09/2022</td>
     </tr>
     <tr>
-        <td>ReAct\cite{yao2022react}</td>
+        <td>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ feedback</td> 
+        <td>w/ tools</td> 
+        <td>Environment feedback</td> 
+        <td>02/2023</td> 
+        <td><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{3}</td>
-        <td>10/2022</td>
     </tr>
     <tr>
-        <td>Replug\cite{shi2023replug}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>01/2023</td>
+        <td>Toolformer: Language Models Can Teach Themselves to Use Tools</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/o feedback</td> 
+        <td>w/ tools</td> 
+        <td>Example</td>  
+        <td>02/2023</td> 
+        <td><a href="https://arxiv.org/abs/2302.04761">Paper</a></td>
+        <td><a href="https://github.com/lucidrains/toolformer-pytorch">Code</a></td>
     </tr>
     <tr>
-        <td>MALLM\cite{schuurmans2023memory}</td>
-        <td>\-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>01/2023</td>
+        <td>Reflexion: Language Agents with Verbal Reinforcement Learning</td> 
+        <td>-</td>  
+        <td>Read/Write/Reflection</td> 
+        <td>Hybrid</td> 
+        <td>w/ feedback</td> 
+        <td>w/o tools</td> 
+        <td>Environment feedback</td> 
+        <td>03/2023</td> 
+        <td><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
+        <td><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td>DEPS\cite{wang2023describe}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{3}</td>
-        <td>02/2023</td>
+        <td>CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society 
+        Handcrafting & GPT-Generated</td> 
+        <td>Handcrafting & GPT-Generated</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ feedback</td>  
+        <td>w/o tools</td> 
+        <td>-</td>  
+        <td>03/2023</td> 
+        <td><a href="https://arxiv.org/abs/2303.17660">Paper</a></td>
+        <td><a href="https://github.com/camel-ai/camel">Code</a></td>
     </tr>
     <tr>
-        <td>Toolformer\cite{schick2023toolformer}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>02/2023</td>
+        <td>API-Bank: A Benchmark for Tool-Augmented LLMs</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ feedback</td>  
+        <td>w/ tools</td> 
+        <td>Example</td> 
+        <td>04/2023</td> 
+        <td><a href="url">Paper</a></td>
+        <td><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td>Reflexion\cite{shinn2023reflexion}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{3}</td>
-        <td>03/2023</td>
+        <td>ViperGPT: Visual Inference via Python Execution for Reasoning</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/ tools</td>  
+        <td>-</td>  
+        <td>03/2023</td>  
+        <td><a href="https://arxiv.org/abs/2303.08128">Paper</a></td>
+        <td><a href="https://github.com/cvlab-columbia/viper">Code</a></td>
     </tr>
     <tr>
-        <td>%Self-Refine\cite{madaan2023self}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>?</td>
-        <td>03/2023</td>
+        <td>HuggingGPT: Solving AI Tasks with ChatGPT and itsFriends in Hugging Face</td> 
+        <td>-</td>  
+        <td>Read/Write</td> 
+        <td>Unified</td> 
+        <td>w/o feedback</td>  
+        <td>w/ tools</td> 
+        <td>-</td>  
+        <td>03/2023</td> 
+        <td><a href="https://arxiv.org/abs/2303.17580">Paper</a></td>
+        <td><a href="https://huggingface.co/">Code</a></td>
     </tr>
     <tr>
-        <td>DERA\cite{nair2023dera}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>03/2023</td>
+        <td>Generative Agents: Interactive Simulacra of Human Behavior</td> 
+        <td>Handcrafting</td> 
+        <td>Read/Write/Reflection</td> 
+        <td>Hybrid</td> 
+        <td>w/o feedback</td> 
+        <td>w/o tools</td>  
+        <td>-</td>  
+        <td>04/2023</td> 
+        <td><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
+        <td><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td>%Colt5\cite{ainslie2023colt5}</td>
+        <td>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td> 
+        <td>-</td>  
+        <td>-</td>  
+        <td>-</td>  
+        <td>w/o feedback</td> 
+        <td>w/ tools</td> 
+        <td>-</td>  
+        <td>04/2023</td> 
+        <td><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
         <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>03/2023</td>
     </tr>
     <tr>
-        <td>DERA\cite{nair2023dera}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>03/2023</td>
-    </tr>
-    <tr>
-        <td>Camel\cite{li2023camel}</td>
-        <td>\whitecircle{1} \whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>03/2023</td>
-    </tr>
-    <tr>
-        <td>API-Bank\cite{li2023api}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
+        <td>Augmenting large language models with chemistry tools</td>
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>w feedback</td>
+        <td>w/ tools</td>
+        <td>-</td> 
         <td>04/2023</td>
+        <td><a href="https://arxiv.org/abs/2304.05376">Paper</a></td>
+        <td><a href="https://github.com/ur-whitelab/chemcrow-public">Code</a></td>
     </tr>
     <tr>
-        <td>ViperGPT\cite{suris2023vipergpt}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>03/2023</td>
-    </tr>
-    <tr>
-        <td>HuggingGPT\cite{shen2023hugginggpt}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>03/2023</td>
-    </tr>
-    <tr>
-        <td>Generative Agents\cite{park2023generative}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
+        <td>OpenAGI: When LLM Meets Domain Experts</td>
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>w feedback</td>
+        <td>w/ tools</td>
+        <td>Example</td>
         <td>04/2023</td>
+        <td>-</td>
+        <td><a href="https://github.com/agiresearch/OpenAGI/blob/main/README.md">Code</a></td>
     </tr>
     <tr>
-        <td>LLM+P\cite{liu2023llmp}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>Auto-GPT: An Autonomous GPT-4 Experiment</td>
+        <td>-</td> 
+        <td>Read/Write</td>
+        <td>Hybrid</td>
+        <td>w feedback</td>
+        <td>w tools</td>
+        <td>Environment feedback</td> 
         <td>04/2023</td>
+        <td>-</td>
+        <td><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
     </tr>
     <tr>
-        <td>ChemCrow\cite{bran2023chemcrow}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System</td>
+        <td>-</td> 
+        <td>Read/Write</td>
+        <td>Hybrid</td>
+        <td>-</td> 
+        <td>w/o tools</td>
+        <td>-</td> 
         <td>04/2023</td>
+        <td><a href="https://arxiv.org/abs/2304.13343">Paper</a></td>
+        <td><a href="https://github.com/wbbeyourself/scm4llms">Code</a></td>
     </tr>
     <tr>
-        <td>%Refiner\cite{paul2023refiner}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>?</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>OpenAGI\cite{ge2023openagi}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}\whitecircle{3}</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>AutoGPT\cite{Auto-gpt}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>SCM\cite{liang2023unleashing}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>SayCan\cite{ahn2022can}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>% IGLU\cite{mehta2023improving}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>ChatLog\cite{tu2023chatlog}</td>
-        <td>\-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>04/2023</td>
-    </tr>
-    <tr>
-        <td>SANDBOX\cite{liu2023training}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
+        <td>Training Socially Aligned Language Models in Simulated Human Society</td>
+        <td>-</td> 
+        <td>Read/Write</td>
+        <td>Hybrid</td>
+        <td>-</td> 
+        <td>w/o tools</td>
+        <td>Example</td>
         <td>05/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.16960">Paper</a></td>
+        <td><a href="https://github.com/agi-templar/Stable-Alignment">Code</a></td>
     </tr>
     <tr>
-        <td>GITM\cite{zhu2023ghost}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{3}</td>
+        <td>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
+        <td>-</td> 
+        <td>Read/Write/Reflection</td>
+        <td>Hybrid</td>
+        <td>w/ feedback</td> 
+        <td>w/o tools</td>
+        <td>Environment feedback</td>
         <td>05/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
+        <td><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td>Voyager\cite{wang2023voyager}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{3}</td>
+        <td>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td>-</td> 
+        <td>Read/Write/Reflection</td>
+        <td>Unified</td>
+        <td>w/ feedback</td> 
+        <td>w/o tools</td>
+        <td>Environment feedback</td>
         <td>05/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
+        <td><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td>% Introspective Tips\cite{chen2023introspective}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}\whitecircle{2}</td>
+        <td>Introspective Tips: Large Language Model for In-Context Decision Making</td>
+        <td>-</td> 
+        <td>Read/Write/Reflection</td>
+        <td>Unified</td>
+        <td>w/ feedback</td>
+        <td>w/o tools</td>
+        <td>Example & Environment feedback</td>
         <td>05/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.11598">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>% Gorilla\cite{patil2023gorilla}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>RET-LLM: Towards a General Read-Write Memory for Large Language Models</td>
+        <td>-</td> 
+        <td>Read/Write/Reflection</td>
+        <td>Unified</td>
+        <td>-</td> 
+        <td>w/o tools</td>
+        <td>Example</td>
         <td>05/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.14322">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>RET-LLM\cite{modarressi2023ret}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>05/2023</td>
-    </tr>
-    <tr>
-        <td>% Self-Notes\cite{lanchantin2023learning}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
-        <td>05/2023</td>
-    </tr>
-    <tr>
-        <td>SocialAGI\cite{fischer2023reflective}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>05/2023</td>
-    </tr>
-    <tr>
-        <td>ChatDB\cite{hu2023chatdb}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
+        <td>-</td> 
+        <td>Read/Write/Reflection</td> 
+        <td>Unified</td> 
+        <td>w/ feedback</td>
+        <td>w/ tools</td> 
+        <td>-</td> 
         <td>06/2023</td>
+        <td><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>% $\mathbf{s^3}$\cite{gao2023s}</td>
-        <td>\whitecircle{3}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
+        <td> $\mathbf{s^3}$: Social-network Simulation System with Large Language Model-Empowered Agents</td> 
+        <td>Dataset alignment</td>
+        <td>Read/Write/Reflection</td>
+        <td>Hybrid</td> 
+        <td>w/o feedback</td> 
+        <td>w/o tools</td>
+        <td>-</td> 
         <td>07/2023</td>
+        <td><a href="https://arxiv.org/abs/2307.14984">Paper</a></td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>ChatDev\cite{qian2023communicative}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>-</td>
+        <td>Communicative Agents for Software Development</td>
+        <td>Handcrafting</td>
+        <td>Read/Write/Reflection</td>
+        <td>Unified</td>
+        <td>w/ feedback</td>
+        <td>w/o tools</td>
+        <td>-</td> 
         <td>07/2023</td>
+        <td><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
+        <td><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td>ToolLLM\cite{qin2023toolllm}</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>w/ feedback</td> 
+        <td>w/ tools</td>
+        <td>Example</td>
         <td>07/2023</td>
+        <td><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
+        <td><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td>MemoryBank\cite{zhong2023memorybank}</td>
-        <td>\-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
+        <td>MemoryBank: Enhancing Large Language Models with Long-Term Memory</td> 
+        <td>-</td> 
+        <td>Read/Write/Reflection</td>
+        <td>Hybrid</td>
+        <td>-</td> 
+        <td>w/o tools</td>
+        <td>-</td> 
         <td>07/2023</td>
+        <td><a href="https://arxiv.org/abs/2305.10250">Paper</a></td>
+        <td><a href="https://github.com/zhongwanjun/MemoryBank-SiliconFriend">Code</a></td>
     </tr>
     <tr>
-        <td>AgentSims\cite{lin2023agentsims}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>-</td>
-        <td>08/2023</td>
-    </tr>
-    <tr>
-        <td>MetaGPT\cite{hong2023metagpt}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{3}</td>
-        <td>08/2023</td>
-    </tr>
-    <tr>
-        <td>% TPTU\cite{ruan2023tptu}</td>
-        <td>-</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{1}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{2}</td>
-        <td>\whitecircle{3}</td>
-        <td>08/2023</td>
+        <td>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
+        <td>Handcrafting</td>
+        <td>Read/Write/Reflection</td>
+        <td>Hybrid</td>
+        <td>w/ feedback</td>
+        <td>w/ tools</td>
+        <td>-</td>  
+        <td>08/2023</td> 
+        <td><a href="https://arxiv.org/abs/2308.00352">Paper</a></td>
+        <td><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr>
 </table>
 
