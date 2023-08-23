@@ -8,811 +8,1167 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 
 
-## [Interactive Table](https://abyssinian-molybdenum-f76.notion.site/8335774013284f2681d6418279f03634?v=681bd9466cd649d98c818040cdf52e17&pvs=4)
-
+## [Interactive Table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4)
 
 We are maintaining an interactive table that contains papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
 
 ## News
-- [8/23/2023] The first version of the paper is released on arXiv: [A Survey on LLM-based Autonomous AI Agents]()
+- [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
 ## Timeline of LLM-based Autonomous Agent
 ![Timeline](assets/timeline.png)
 
-## Agent Architecture Design
-![Architecture Design](assets/architecture.png)
 
 ## Construction of LLM-based Autonomous Agent
-<style>
-td{
-    border: 1px solid black;
-    text-align: center;
-    vertical-align: middle;
-    padding: 5px;
-}
-</style>
+
+### Agent Architecture Design
+![Architecture Design](assets/architecture.png)
+### Construction Strategies of LLM-based Autonomous Agent
 <table>
     <tr>
-        <td rowspan='2'>Model</td>
-        <td rowspan='2'>Profile</td>
-        <td colspan='2'>Memory</td>
-        <td rowspan='2'>Planning</td>
-        <td rowspan='2'>Action</td>
-        <td rowspan='2'>LS</td>
-        <td rowspan='2'>Time</td>        
-        <td rowspan='2'>Paper</td>
-        <td rowspan='2'>Code</td>
+        <td rowspan='2'align='center'>Model</td>
+        <td rowspan='2'align='center'>Profile</td>
+        <td colspan='2'align='center'>Memory</td>
+        <td rowspan='2'align='center'>Planning</td>
+        <td rowspan='2'align='center'>Action</td>
+        <td rowspan='2'align='center'>LS</td>
+        <td rowspan='2'align='center'>Time</td>        
+        <td rowspan='2'align='center'>Paper</td>
+        <td rowspan='2'align='center'>Code</td>
     </tr>
     <tr>
-        <td>Operation</td>
-        <td>Structure</td>
+        <td align='center'>Operation</td>
+        <td align='center'>Structure</td>
     </tr>
     <tr>
-        <td>WebGPT: Browser-assisted question-answering with human feedback</td>
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>w/ tools</td> 
-        <td>Human feedback</td> 
-        <td>12/2021</td>
-        <td><a href="https://arxiv.org/abs/2112.09332">Paper</a></td>
-        <td>-</td>
+        <td align='center'>WebGPT: Browser-assisted question-answering with human feedback</td>
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Human feedback</td> 
+        <td align='center'>12/2021</td>
+        <td align='center'><a href="https://arxiv.org/abs/2112.09332">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/o feedback</td> 
-        <td>w/ tools</td> 
-        <td>Environment feedback</td>  
-        <td>04/2022</td> 
-        <td><a href="https://arxiv.org/abs/2204.01691">Paper</a></td>
-        <td><a href="https://say-can.github.io/">Code</a></td>
+        <td align='center'>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Environment feedback</td>  
+        <td align='center'>04/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2204.01691">Paper</a></td>
+        <td align='center'><a href="https://say-can.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/o feedback</td> 
-        <td>w/ tools</td> 
-        <td>-</td>  
-        <td>05/2022</td> 
-        <td><a href="https://arxiv.org/abs/2205.00445">Paper</a></td>
-        <td>-</td>
+        <td align='center'>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>05/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2205.00445">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Inner Monologue: Embodied Reasoning through Planning with Language Models</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ feedback</td> 
-        <td>w/ tools</td> 
-        <td>Environment feedback</td> 
-        <td>07/2022</td> 
-        <td><a href="https://arxiv.org/abs/2207.05608">Paper</a></td>
-        <td><a href="https://innermonologue.github.io/">Code</a></td>
+        <td align='center'>Inner Monologue: Embodied Reasoning through Planning with Language Models</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>07/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2207.05608">Paper</a></td>
+        <td align='center'><a href="https://innermonologue.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>  
-        <td>GPT-Generated</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/o tools</td> 
-        <td>-</td>   
-        <td>08/2022</td> 
-        <td><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>  
+        <td align='center'>GPT-Generated</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/o tools</td> 
+        <td align='center'>-</td>   
+        <td align='center'>08/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>ReAct: Synergizing Reasoning and Acting in Language Models</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ feedback</td> 
-        <td>w/ tools</td> 
-        <td>Environment feedback</td> 
-        <td>10/2022</td> 
-        <td><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
-        <td><a href="https://github.com/ysymyth/ReAct">Code</a></td>
+        <td align='center'>ReAct: Synergizing Reasoning and Acting in Language Models</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>10/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
+        <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td>REPLUG: Retrieval-Augmented Black-Box Language Models</td> 
-        <td>-</td>  
-        <td>Read/Write/Reflection</td> 
-        <td>Unified</td> 
-        <td>-</td>  
-        <td>w/o tools</td> 
-        <td>-</td>  
-        <td>01/2023</td> 
-        <td><a href="https://arxiv.org/abs/2301.12652">Paper</a></td>
-        <td>-</td>
+        <td align='center'>REPLUG: Retrieval-Augmented Black-Box Language Models</td> 
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write/Reflection</td> 
+        <td align='center'>Unified</td> 
+        <td align='center'>-</td>  
+        <td align='center'>w/o tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>01/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2301.12652">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ feedback</td> 
-        <td>w/ tools</td> 
-        <td>Environment feedback</td> 
-        <td>02/2023</td> 
-        <td><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>02/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Toolformer: Language Models Can Teach Themselves to Use Tools</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/o feedback</td> 
-        <td>w/ tools</td> 
-        <td>Example</td>  
-        <td>02/2023</td> 
-        <td><a href="https://arxiv.org/abs/2302.04761">Paper</a></td>
-        <td><a href="https://github.com/lucidrains/toolformer-pytorch">Code</a></td>
+        <td align='center'>Toolformer: Language Models Can Teach Themselves to Use Tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Example</td>  
+        <td align='center'>02/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2302.04761">Paper</a></td>
+        <td align='center'><a href="https://github.com/lucidrains/toolformer-pytorch">Code</a></td>
     </tr>
     <tr>
-        <td>Reflexion: Language Agents with Verbal Reinforcement Learning</td> 
-        <td>-</td>  
-        <td>Read/Write/Reflection</td> 
-        <td>Hybrid</td> 
-        <td>w/ feedback</td> 
-        <td>w/o tools</td> 
-        <td>Environment feedback</td> 
-        <td>03/2023</td> 
-        <td><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
-        <td><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
+        <td align='center'>Reflexion: Language Agents with Verbal Reinforcement Learning</td> 
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write/Reflection</td> 
+        <td align='center'>Hybrid</td> 
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>03/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
+        <td align='center'><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td>CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society 
+        <td align='center'>CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society 
         Handcrafting & GPT-Generated</td> 
-        <td>Handcrafting & GPT-Generated</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ feedback</td>  
-        <td>w/o tools</td> 
-        <td>-</td>  
-        <td>03/2023</td> 
-        <td><a href="https://arxiv.org/abs/2303.17660">Paper</a></td>
-        <td><a href="https://github.com/camel-ai/camel">Code</a></td>
+        <td align='center'>Handcrafting & GPT-Generated</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td>  
+        <td align='center'>w/o tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>03/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2303.17660">Paper</a></td>
+        <td align='center'><a href="https://github.com/camel-ai/camel">Code</a></td>
     </tr>
     <tr>
-        <td>API-Bank: A Benchmark for Tool-Augmented LLMs</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ feedback</td>  
-        <td>w/ tools</td> 
-        <td>Example</td> 
-        <td>04/2023</td> 
-        <td><a href="url">Paper</a></td>
-        <td><a href="url">Code</a></td>
+        <td align='center'>API-Bank: A Benchmark for Tool-Augmented LLMs</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td>  
+        <td align='center'>w/ tools</td> 
+        <td align='center'>Example</td> 
+        <td align='center'>04/2023</td> 
+        <td align='center'><a href="url">Paper</a></td>
+        <td align='center'><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td>ViperGPT: Visual Inference via Python Execution for Reasoning</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/ tools</td>  
-        <td>-</td>  
-        <td>03/2023</td>  
-        <td><a href="https://arxiv.org/abs/2303.08128">Paper</a></td>
-        <td><a href="https://github.com/cvlab-columbia/viper">Code</a></td>
+        <td align='center'>ViperGPT: Visual Inference via Python Execution for Reasoning</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ tools</td>  
+        <td align='center'>-</td>  
+        <td align='center'>03/2023</td>  
+        <td align='center'><a href="https://arxiv.org/abs/2303.08128">Paper</a></td>
+        <td align='center'><a href="https://github.com/cvlab-columbia/viper">Code</a></td>
     </tr>
     <tr>
-        <td>HuggingGPT: Solving AI Tasks with ChatGPT and itsFriends in Hugging Face</td> 
-        <td>-</td>  
-        <td>Read/Write</td> 
-        <td>Unified</td> 
-        <td>w/o feedback</td>  
-        <td>w/ tools</td> 
-        <td>-</td>  
-        <td>03/2023</td> 
-        <td><a href="https://arxiv.org/abs/2303.17580">Paper</a></td>
-        <td><a href="https://huggingface.co/">Code</a></td>
+        <td align='center'>HuggingGPT: Solving AI Tasks with ChatGPT and itsFriends in Hugging Face</td> 
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write</td> 
+        <td align='center'>Unified</td> 
+        <td align='center'>w/o feedback</td>  
+        <td align='center'>w/ tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>03/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2303.17580">Paper</a></td>
+        <td align='center'><a href="https://huggingface.co/">Code</a></td>
     </tr>
     <tr>
-        <td>Generative Agents: Interactive Simulacra of Human Behavior</td> 
-        <td>Handcrafting</td> 
-        <td>Read/Write/Reflection</td> 
-        <td>Hybrid</td> 
-        <td>w/o feedback</td> 
-        <td>w/o tools</td>  
-        <td>-</td>  
-        <td>04/2023</td> 
-        <td><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
-        <td><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
+        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td> 
+        <td align='center'>Handcrafting</td> 
+        <td align='center'>Read/Write/Reflection</td> 
+        <td align='center'>Hybrid</td> 
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/o tools</td>  
+        <td align='center'>-</td>  
+        <td align='center'>04/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
+        <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td> 
-        <td>-</td>  
-        <td>-</td>  
-        <td>-</td>  
-        <td>w/o feedback</td> 
-        <td>w/ tools</td> 
-        <td>-</td>  
-        <td>04/2023</td> 
-        <td><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
-        <td>-</td>
+        <td align='center'>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>-</td>  
+        <td align='center'>04/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Augmenting large language models with chemistry tools</td>
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>w feedback</td>
-        <td>w/ tools</td>
-        <td>-</td> 
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2304.05376">Paper</a></td>
-        <td><a href="https://github.com/ur-whitelab/chemcrow-public">Code</a></td>
+        <td align='center'>Augmenting large language models with chemistry tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>w feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.05376">Paper</a></td>
+        <td align='center'><a href="https://github.com/ur-whitelab/chemcrow-public">Code</a></td>
     </tr>
     <tr>
-        <td>OpenAGI: When LLM Meets Domain Experts</td>
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>w feedback</td>
-        <td>w/ tools</td>
-        <td>Example</td>
-        <td>04/2023</td>
-        <td>-</td>
-        <td><a href="https://github.com/agiresearch/OpenAGI/blob/main/README.md">Code</a></td>
+        <td align='center'>OpenAGI: When LLM Meets Domain Experts</td>
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>w feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>Example</td>
+        <td align='center'>04/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/agiresearch/OpenAGI/blob/main/README.md">Code</a></td>
     </tr>
     <tr>
-        <td>Auto-GPT: An Autonomous GPT-4 Experiment</td>
-        <td>-</td> 
-        <td>Read/Write</td>
-        <td>Hybrid</td>
-        <td>w feedback</td>
-        <td>w tools</td>
-        <td>Environment feedback</td> 
-        <td>04/2023</td>
-        <td>-</td>
-        <td><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
+        <td align='center'>Auto-GPT: An Autonomous GPT-4 Experiment</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w feedback</td>
+        <td align='center'>w tools</td>
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>04/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
     </tr>
     <tr>
-        <td>Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System</td>
-        <td>-</td> 
-        <td>Read/Write</td>
-        <td>Hybrid</td>
-        <td>-</td> 
-        <td>w/o tools</td>
-        <td>-</td> 
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2304.13343">Paper</a></td>
-        <td><a href="https://github.com/wbbeyourself/scm4llms">Code</a></td>
+        <td align='center'>Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>-</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.13343">Paper</a></td>
+        <td align='center'><a href="https://github.com/wbbeyourself/scm4llms">Code</a></td>
     </tr>
     <tr>
-        <td>Training Socially Aligned Language Models in Simulated Human Society</td>
-        <td>-</td> 
-        <td>Read/Write</td>
-        <td>Hybrid</td>
-        <td>-</td> 
-        <td>w/o tools</td>
-        <td>Example</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.16960">Paper</a></td>
-        <td><a href="https://github.com/agi-templar/Stable-Alignment">Code</a></td>
+        <td align='center'>Training Socially Aligned Language Models in Simulated Human Society</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>-</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>Example</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16960">Paper</a></td>
+        <td align='center'><a href="https://github.com/agi-templar/Stable-Alignment">Code</a></td>
     </tr>
     <tr>
-        <td>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
-        <td>-</td> 
-        <td>Read/Write/Reflection</td>
-        <td>Hybrid</td>
-        <td>w/ feedback</td> 
-        <td>w/o tools</td>
-        <td>Environment feedback</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
-        <td><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
+        <td align='center'>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>Environment feedback</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
-        <td>-</td> 
-        <td>Read/Write/Reflection</td>
-        <td>Unified</td>
-        <td>w/ feedback</td> 
-        <td>w/o tools</td>
-        <td>Environment feedback</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
-        <td><a href="https://github.com/MineDojo/Voyager">Code</a></td>
+        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Unified</td>
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>Environment feedback</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
+        <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td>Introspective Tips: Large Language Model for In-Context Decision Making</td>
-        <td>-</td> 
-        <td>Read/Write/Reflection</td>
-        <td>Unified</td>
-        <td>w/ feedback</td>
-        <td>w/o tools</td>
-        <td>Example & Environment feedback</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.11598">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Introspective Tips: Large Language Model for In-Context Decision Making</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Unified</td>
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/o tools</td>
+        <td align='center'>Example & Environment feedback</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.11598">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>RET-LLM: Towards a General Read-Write Memory for Large Language Models</td>
-        <td>-</td> 
-        <td>Read/Write/Reflection</td>
-        <td>Unified</td>
-        <td>-</td> 
-        <td>w/o tools</td>
-        <td>Example</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.14322">Paper</a></td>
-        <td>-</td>
+        <td align='center'>RET-LLM: Towards a General Read-Write Memory for Large Language Models</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Unified</td>
+        <td align='center'>-</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>Example</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.14322">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
-        <td>-</td> 
-        <td>Read/Write/Reflection</td> 
-        <td>Unified</td> 
-        <td>w/ feedback</td>
-        <td>w/ tools</td> 
-        <td>-</td> 
-        <td>06/2023</td>
-        <td><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
-        <td>-</td>
+        <td align='center'>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td> 
+        <td align='center'>Unified</td> 
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/ tools</td> 
+        <td align='center'>-</td> 
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td> $\mathbf{s^3}$: Social-network Simulation System with Large Language Model-Empowered Agents</td> 
-        <td>Dataset alignment</td>
-        <td>Read/Write/Reflection</td>
-        <td>Hybrid</td> 
-        <td>w/o feedback</td> 
-        <td>w/o tools</td>
-        <td>-</td> 
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.14984">Paper</a></td>
-        <td>-</td>
+        <td align='center'> $\mathbf{s^3}$: Social-network Simulation System with Large Language Model-Empowered Agents</td> 
+        <td align='center'>Dataset alignment</td>
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Hybrid</td> 
+        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.14984">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Communicative Agents for Software Development</td>
-        <td>Handcrafting</td>
-        <td>Read/Write/Reflection</td>
-        <td>Unified</td>
-        <td>w/ feedback</td>
-        <td>w/o tools</td>
-        <td>-</td> 
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
-        <td><a href="url">Code</a></td>
+        <td align='center'>Communicative Agents for Software Development</td>
+        <td align='center'>Handcrafting</td>
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Unified</td>
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/o tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
+        <td align='center'><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>w/ feedback</td> 
-        <td>w/ tools</td>
-        <td>Example</td>
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
-        <td><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
+        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td>
+        <td align='center'>Example</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td>MemoryBank: Enhancing Large Language Models with Long-Term Memory</td> 
-        <td>-</td> 
-        <td>Read/Write/Reflection</td>
-        <td>Hybrid</td>
-        <td>-</td> 
-        <td>w/o tools</td>
-        <td>-</td> 
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.10250">Paper</a></td>
-        <td><a href="https://github.com/zhongwanjun/MemoryBank-SiliconFriend">Code</a></td>
+        <td align='center'>MemoryBank: Enhancing Large Language Models with Long-Term Memory</td> 
+        <td align='center'>-</td> 
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>-</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>-</td> 
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.10250">Paper</a></td>
+        <td align='center'><a href="https://github.com/zhongwanjun/MemoryBank-SiliconFriend">Code</a></td>
     </tr>
     <tr>
-        <td>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
-        <td>Handcrafting</td>
-        <td>Read/Write/Reflection</td>
-        <td>Hybrid</td>
-        <td>w/ feedback</td>
-        <td>w/ tools</td>
-        <td>-</td>  
-        <td>08/2023</td> 
-        <td><a href="https://arxiv.org/abs/2308.00352">Paper</a></td>
-        <td><a href="https://github.com/geekan/MetaGPT">Code</a></td>
+        <td align='center'>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
+        <td align='center'>Handcrafting</td>
+        <td align='center'>Read/Write/Reflection</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>-</td>  
+        <td align='center'>08/2023</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2308.00352">Paper</a></td>
+        <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr>
 </table>
 
-## Application and Evaluation
-![Application and Evaluation](assets/app&eva.png)
 
 ## Applications of LLM-based Autonomous Agent
 
-### Social Science
+<table>
+    <tr>
+        <td align='center'>Title</td>
+        <td align='center'>Social Science </td>
+        <td align='center'>Natural Science </td>
+        <td align='center'>Engineering</td>
+        <td align='center'>Time</td>
+        <td align='center'>Paper</td>
+        <td align='center'>Code</td>
+    </tr>
+    <tr>
+        <td align='center'>Playing repeated games with Large Language Models</td>
+        <td align='center'>Psychology </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>05/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16867">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>04/2022</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2204.01691">Paper</a></td>
+        <td align='center'><a href="https://say-can.github.io/">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>A Neural Network Solves, Explains, and Generates University Math Problems by Program Synthesis and Few-Shot Learning at Human Level </td>
+        <td align='center'>-</td>
+        <td align='center'>Science Education</td>
+        <td align='center'>-</td>
+        <td align='center'>06/2022</td>
+        <td align='center'><a href="https://www.pnas.org/doi/full/10.1073/pnas.2123433119">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
+        <td align='center'>Psychology </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2208.10264">Paper</a></td>
+        <td align='center'><a href="https://github.com/gatiaher/using-large-language-models-to-replicate-human-subject-studies">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Out of One, Many: Using Language Models to Simulate Human Samples</td>
+        <td align='center'>Political Science and Economy</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>09/2022</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2209.06899">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>LangChain</td>
+        <td align='center'>Psychology </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>10/2022</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/hwchase17/langchain">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Blind Judgement: Agent-Based Supreme Court Modelling With GPT</td>
+        <td align='center'>Jurisprudence</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>01/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2301.05327.pdf">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?</td>
+        <td align='center'>Political Science and Economy</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>01/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2301.07543">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>01/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2301.12050">Paper</a></td>
+        <td align='center'><a href="https://github.com/DeckardAgent/deckard">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Collaborating with language models for embodied reasoning</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>02/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2302.00763">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>Auto-GPT: An Autonomous GPT-4 Experiment</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>03/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>BMTools</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>03/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2304.08354.pdf">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/BMTools">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>BabyAGI</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>04/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="yoheinakajima/babyagi">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>REFINER: Reasoning Feedback on Intermediate Representations </td>
+        <td align='center'>Psychology</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.01904">Paper</a></td>
+        <td align='center'><a href="https://github.com/debjitpaul/refiner">Code</a></td>
+    </tr>      
+    <tr>
+        <td align='center'>AgentGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.01904">Paper</a></td>
+        <td align='center'><a href="https://github.com/reworkd/AgentGPT">Code</a></td>
+    </tr>      
+    <tr>
+        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
+        <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
+    </tr>    
+    <tr>
+        <td align='center'>AI-legion</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>04/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/eumemic/ai-legion">Code</a></td>
+    </tr>    
+    <tr>
+        <td align='center'>Emergent autonomous s scientific research capabilities of large language models</td>
+        <td align='center'>-</td>
+        <td align='center'>Document and Data Management<br>Experiment Assistant<br>Science Education</td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2304.05332.pdf">Paper</a></td>
+        <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
+    </tr> 
+    <tr>
+        <td align='center'>LoopGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2303.01665">Paper</a></td>
+        <td align='center'><a href="https://github.com/farizrahman4u/loopgpt">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>Self-collaboration Code Generation via ChatGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2304.07590">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>   
+    <tr>
+        <td align='center'>AGiXT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>04/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/Josh-XT/AGiXT">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Civil Engineering</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.10750">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>   
+    <tr>
+        <td align='center'>Industrial Engineering with Large Language Models: A case study of ChatGPT’s performance on Oil & Gas problems </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Aerospace Engineering</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.14354">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>   
+    <tr>
+        <td align='center'>Towards autonomous system: flexible modular production system enhanced with large language model agents</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Industrial Automation</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.14721">Paper</a></td>
+        <td align='center'><a href="https://github.com/YuchenXia/GPT4IndustrialAutomation">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>Workgpt</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>05/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/team-openpm/workgpt">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>AgentVerse:A Framework for Multi-LLM Environment Simulation</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>05/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/OpenBMB/AgentVerse">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>GPT Researcher</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.01852">Paper</a></td>
+        <td align='center'><a href="https://github.com/assafelovic/gpt-researcher">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>SmolModels</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>05/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/smol-ai/developer">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>SuperAGI</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>05/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/TransformerOptimus/SuperAGI">Code</a></td>
+    </tr>   
+    <tr>
+        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
+        <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.03604">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>Large Language Model Is Semi-Parametric Reinforcement Learning Agent</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.07929">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>GPT Engineer</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>06/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/AntonOsika/gpt-engineer">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>MiniAGI</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>06/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/muellerberndt/mini-agi">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>DemoGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents;<br>CS&SE</td>
+        <td align='center'>06/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/melih-unsal/DemoGPT">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>Embodied Task Planning with Large Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.01848">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>Math Agents: Computational Infrastructure Mathematical Embedding, and Genomics</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Science Education</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2307.02502">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>Epidemic Modeling with Generative Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.04986">Paper</a></td>
+        <td align='center'><a href="https://github.com/bear96/GABM-Epidemic">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>The SocialAI School: Insights from Developmental Psychology Towards Artificial Socio-Cultural Agents</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.07871">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>Towards A Unified Agent with Foundation Models</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.09668">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>Are you in a Masquerade? Exploring the Behavior and Impact of Large Language Model Driven Social Bots in Online Social Networks</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.10337">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>S3: Social-network Simulation System with Large Language Model-Empowered Agents </td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.14984">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>Dialogue Shaping: Empowering Agents through NPC Interaction</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2307.15833.pdf">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support</td>
+        <td align='center'>Psychology</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.15810">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
+    </tr> 
+    <tr>
+        <td align='center'>ChatMOF: An Autonomous AI System for Predicting and Generating Metal-Organic Frameworks</td>
+        <td align='center'>-</td>
+        <td align='center'>Document and Data Management</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2308.01423">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.00352">Paper</a></td>
+        <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
+    </tr> 
+    <tr>
+        <td align='center'>The Hitchhiker’s Guide to Program Analysis: A Journey with Large Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.00245">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>General Autonomous Agents</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.08155">Paper</a></td>
+        <td align='center'><a href="https://microsoft.github.io/FLAML/docs/Use-Cases/Autogen/">Code</a></td>
+    </tr> 
+</table>
 
-#### Psychology
-- Using large language models to simulate multiple humans and replicate human subject studies [[Paper](https://arxiv.org/abs/2208.10264)]
-- [akata2023playing]
-- [ziems2023can]
-
-#### Political Science and Economy
-- [argyle2023out]
-- [horton2023large]
-- [ziems2023can]
-
-#### Social Simulation
-- [park2022social]
-- [park2023generative]
-- [kovavc2023socialai]
-- [lin2023agentsims]
-- [gao2023s]
-- [williams2023epidemic]
-- [li2023you]
-- [li2023quantifying]
-
-#### Jurisprudence
-- [cui2023chatlaw]
-- [huenabling]
-
-#### Research Assistant
-- [ziems2023can]
-- [bail2023can]
-
-### Natural Science
-
-#### Documentation, Data Managent
-- [bran2023chemcrow]
-- [boiko2023emergent]
-- [kang2023chatmof]
-
-#### Experiment Assistant
-- [bran2023chemcrow]
-- [boiko2023emergent]
-
-#### Science Education
-- [boiko2023emergent]
-- [swan2023math]
-- [Drori_2022]
-- [chen2021evaluating]
-
-### Engineering
-
-#### Civil Engineering
-- [mehta2023improving]
-
-#### CS & SE
-- [qin2023toolllm]
-- [qian2023communicative]
-- [hong2023metagpt]
-- [dong2023self]
-- [GPTEngineer]
-- [SmolModels]
-- [DemoGPT]
-
-#### Aerospace Engineering
-- [ogundare2023industrial]
-
-#### Industrial Automation
-- [xia2023towards]
-
-#### Robotics & Embodied AI
-- [dasgupta2023collaborating]
-- [zhou2023dialogue]
-- [nottingham2023embodied]
-- [wu2023embodied]
-- [wang2023voyager]
-- [zhu2023ghost]
-- [huenabling]
-- [wu2023plan]
-- [zhang2023large]
-- [di2023towards]
-- [ahn2022can]
-
-#### General Autonomous Agents
-- [Auto-gpt]
-- [Agentgpt]
-- [AI-legion]
-- [AGiXT]
-- [AgentVerse]
-- [XLang]
-- [BabyAGI]
-- [langchain]
-- [workgpt]
-- [loopgpt]
-- [gpt-researcher]
-- [qin2023bmtools]
-- [transformers-agent]
-- [DemoGPT]
-- [MiniAGI]
-- [SuperAGI]
-- [wu2023autogen]
 ## Evaluation on LLM-based Autonomous Agent
-<table border='1'>
+<table>
     <tr>
-        <td>Model</td>
-        <td>Subjective </td>
-        <td>Objective </td>
-        <td>Benchmark</td>
-        <td>Time</td>
-        <td>Paper</td>
-        <td>Code</td>
+        <td align='center'>Model</td>
+        <td align='center'>Subjective </td>
+        <td align='center'>Objective </td>
+        <td align='center'>Benchmark</td>
+        <td align='center'>Time</td>
+        <td align='center'>Paper</td>
+        <td align='center'>Code</td>
     </tr>
     <tr>
-        <td>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</td>
-        <td>-</td>
-        <td>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
-        <td>&check;</td>
-        <td>07/2022</td>
-        <td><a href="https://arxiv.org/abs/2207.01206">Paper</a></td>
-        <td><a href="https://github.com/princeton-nlp/webshop">Code</a></td>
+        <td align='center'>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
+        <td align='center'>&check;</td>
+        <td align='center'>07/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2207.01206">Paper</a></td>
+        <td align='center'><a href="https://github.com/princeton-nlp/webshop">Code</a></td>
     </tr>
     <tr>
-        <td>Social Simulacra: Creating Populated Prototypes for Social Computing Systems </td>
-        <td>Human Annotation</td>
-        <td>Social Evaluation</td>
-        <td>-</td>
-        <td>08/2022</td>
-        <td><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems </td>
+        <td align='center'>Human Annotation</td>
+        <td align='center'>Social Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2208.04024">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
-        <td>-</td>
-        <td>Social Evaluation</td>
-        <td>-</td>
-        <td>08/2022</td>
-        <td><a href="https://arxiv.org/abs/2208.10264">Paper</a></td>
-        <td><a href="https://github.com/GatiAher/UsingLarge-Language-Models-to-Replicate-Human-Subject-Studies">Code</a></td>
+        <td align='center'>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
+        <td align='center'>-</td>
+        <td align='center'>Social Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2208.10264">Paper</a></td>
+        <td align='center'><a href="https://github.com/GatiAher/UsingLarge-Language-Models-to-Replicate-Human-Subject-Studies">Code</a></td>
     </tr>
     <tr>
-        <td>Large Language Models are Few-Shot Testers: Exploring LLM-based General Bug Reproduction</td>
-        <td>-</td>
-        <td>Software Testing</td>
-        <td>-</td>
-        <td>09/2022</td>
-        <td><a href="https://arxiv.org/abs/2209.11515">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Large Language Models are Few-Shot Testers: Exploring LLM-based General Bug Reproduction</td>
+        <td align='center'>-</td>
+        <td align='center'>Software Testing</td>
+        <td align='center'>-</td>
+        <td align='center'>09/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2209.11515">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>ReAct: Synergizing Reasoning and Acting in Language Models</td>
-        <td>-</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>10/2022</td>
-        <td><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
-        <td><a href="https://github.com/ysymyth/ReAct">Code</a></td>
+        <td align='center'>ReAct: Synergizing Reasoning and Acting in Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>10/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
+        <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td>Out of One, Many: Using Language Models to Simulate Human Samples</td>
-        <td>Turing Test</td>
-        <td> Isolated Reasoning;<br> Multi-task Evaluation</td>
-        <td>-</td>
-        <td>02/2023</td>        
-        <td><a href="https://arxiv.org/abs/2209.06899">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Out of One, Many: Using Language Models to Simulate Human Samples</td>
+        <td align='center'>Turing Test</td>
+        <td align='center'> Isolated Reasoning;<br> Multi-task Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'>02/2023</td>        
+        <td align='center'><a href="https://arxiv.org/abs/2209.06899">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents </td>
-        <td>-</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>02/2023</td>
-        <td><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents </td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>02/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>ChatGPT and Software Testing Education: Promises & Perils</td>
-        <td>-</td>
-        <td>Software Testing</td>
-        <td>-</td>
-        <td>02/2023</td>
-        <td><a href="https://arxiv.org/abs/2302.03287">Paper</a></td>
-        <td><a href="https://github.com/sajedjalil/ChatGPT-Software-Testing-Stud">Code</a></td>
+        <td align='center'>ChatGPT and Software Testing Education: Promises & Perils</td>
+        <td align='center'>-</td>
+        <td align='center'>Software Testing</td>
+        <td align='center'>-</td>
+        <td align='center'>02/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2302.03287">Paper</a></td>
+        <td align='center'><a href="https://github.com/sajedjalil/ChatGPT-Software-Testing-Stud">Code</a></td>
     </tr>
     <tr>
-        <td>Reflexion: Language Agents with Verbal Reinforcement Learning</td>
-        <td>-</td>
-        <td>Isolated Reasoning</td>
-        <td>-</td>
-        <td>03/2023</td>
-        <td><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
-        <td><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
+        <td align='center'>Reflexion: Language Agents with Verbal Reinforcement Learning</td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning</td>
+        <td align='center'>-</td>
+        <td align='center'>03/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
+        <td align='center'><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
-        <td>-</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2304.10750">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.10750">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td>
-        <td>-</td>
-        <td>Isolated Reasoning</td>
-        <td>-</td>
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
-        <td>-</td>
+        <td align='center'>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning</td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Generative Agents: Interactive Simulacra of Human Behavior</td>
-        <td> Human Annoation;<br>Turing Test</td>
-        <td>-</td>
-        <td>-</td>
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
-        <td><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
+        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td>
+        <td align='center'> Human Annoation;<br>Turing Test</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.03442">Paper</a></td>
+        <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
-        <td>Human Annoation</td>
-        <td>Multi-task Evalution</td>
-        <td>&check;</td>
-        <td>04/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
-        <td><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
+        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>Human Annoation</td>
+        <td align='center'>Multi-task Evalution</td>
+        <td align='center'>&check;</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
-        <td>-</td>
-        <td>Environment simulation</td>
-        <td>&check;</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
-        <td><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
+        <td align='center'>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment simulation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td>Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs </td>
-        <td>-</td>
-        <td>Environment Simulation</td>
-        <td>-</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.14279">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs </td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.14279">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
-        <td>-</td>
-        <td>Environment Simulation</td>
-        <td>&check;</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
-        <td><a href="https://github.com/MineDojo/Voyager">Code</a></td>
+        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
+        <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td>Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SOCKET Benchmark </td>
-        <td>-</td>
-        <td>Isolated Reasoning;<br> Social Evaluation;<br>Multi-task Evaluation </td>
-        <td>&check;</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.14938">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SOCKET Benchmark </td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning;<br> Social Evaluation;<br>Multi-task Evaluation </td>
+        <td align='center'>&check;</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.14938">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era</td>
-        <td>-</td>
-        <td>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
-        <td>&check;</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.08144">Paper</a></td>
-        <td><a href="https://github.com/X-LANCE/Mobile-Env">Code</a></td>
+        <td align='center'>Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.08144">Paper</a></td>
+        <td align='center'><a href="https://github.com/X-LANCE/Mobile-Env">Code</a></td>
     </tr>
     <tr>
-        <td>Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents</td>
-        <td>-</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>05/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
-        <td><a href="https://github.com/clp-research/clembench">Code</a></td>
+        <td align='center'>Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
+        <td align='center'><a href="https://github.com/clp-research/clembench">Code</a></td>
     </tr>
     <tr>
-        <td>Decision-Oriented Dialogue for Human–AI Collaboration</td>
-        <td>-</td>
-        <td>Social Evaluation</td>
-        <td>&check;</td>
-        <td>06/2023</td>
-        <td><a href="https://arxiv.org/abs/2305.20076">Paper</a></td>
-        <td><a href="https://github.com/jlin816/dialop">Code</a></td>
+        <td align='center'>Decision-Oriented Dialogue for Human–AI Collaboration</td>
+        <td align='center'>-</td>
+        <td align='center'>Social Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.20076">Paper</a></td>
+        <td align='center'><a href="https://github.com/jlin816/dialop">Code</a></td>
     </tr>
     <tr>
-        <td>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
-        <td>-</td>
-        <td>Isolated Reasoning</td>
-        <td>-</td>
-        <td>06/2023</td>
-        <td><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
-        <td>-</td>
+        <td align='center'>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning</td>
+        <td align='center'>-</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Towards Autonomous Testing Agents via Conversational Large Language Models</td>
-        <td>-</td>
-        <td>Software Testing</td>
-        <td>-</td>
-        <td>06/2023</td>
-        <td><a href="https://arxiv.org/abs/2306.05152">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Towards Autonomous Testing Agents via Conversational Large Language Models</td>
+        <td align='center'>-</td>
+        <td align='center'>Software Testing</td>
+        <td align='center'>-</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.05152">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Building Cooperative Embodied Agents Modularly with Large Language Models</td>
-        <td>Human Annoation</td>
-        <td>Environment Simulation</td>
-        <td>-</td>
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.02485">Paper</a></td>
-        <td><a href="https://vis-www.cs.umass.edu/Co-LLM-Agents/">Code</a></td>
+        <td align='center'>Building Cooperative Embodied Agents Modularly with Large Language Models</td>
+        <td align='center'>Human Annoation</td>
+        <td align='center'>Environment Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.02485">Paper</a></td>
+        <td align='center'><a href="https://vis-www.cs.umass.edu/Co-LLM-Agents/">Code</a></td>
     </tr>
     <tr>
-        <td>Tachikuma: Understading Complex Interactions with Multi-Character and Novel Objects by Large Language Models</td>
-        <td>Human Annoation</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.12573">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Tachikuma: Understading Complex Interactions with Multi-Character and Novel Objects by Large Language Models</td>
+        <td align='center'>Human Annoation</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.12573">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>Communicative Agents for Software Development</td>
-        <td>-</td>
-        <td>Isolated Reasoning</td>
-        <td>-</td>
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
-        <td>-</td>
+        <td align='center'>Communicative Agents for Software Development</td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
     <tr>
-        <td>WebArena: A Realistic Web Environment for Building Autonomous Agents</td>
-        <td>-</td>
-        <td>Environment Simluation</td>
-        <td>&check;</td>
-        <td>07/2023</td>
-        <td><a href="https://arxiv.org/abs/2307.13854">Paper</a></td>
-        <td><a href="https://github.com/web-arena-x/webarena">Code</a></td>
+        <td align='center'>WebArena: A Realistic Web Environment for Building Autonomous Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.13854">Paper</a></td>
+        <td align='center'><a href="https://github.com/web-arena-x/webarena">Code</a></td>
     </tr>
     <tr>
-        <td>AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</td>
-        <td>-</td>
-        <td>Social Evaluation</td>
-        <td>-</td>
-        <td>08/2023</td>
-        <td><a href="https://arxiv.org/abs/2308.04026">Paper</a></td>
-        <td><a href="https://github.com/py499372727/AgentSims">Code</a></td>
+        <td align='center'>AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'>Social Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.04026">Paper</a></td>
+        <td align='center'><a href="https://github.com/py499372727/AgentSims">Code</a></td>
     </tr>
     <tr>
-        <td>AgentBench: Evaluating LLMs as Agents</td>
-        <td>-</td>
-        <td>Multi-task Evaluation</td>
-        <td>&check;</td>
-        <td>08/2023</td>
-        <td><a href="https://arxiv.org/abs/2308.03688">Paper</a></td>
-        <td><a href="https://github.com/thudm/agentbench">Code</a></td>
+        <td align='center'>AgentBench: Evaluating LLMs as Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.03688">Paper</a></td>
+        <td align='center'><a href="https://github.com/thudm/agentbench">Code</a></td>
     </tr>
     <tr>
-        <td>BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents</td>
-        <td>-</td>
-        <td>Environment Simulation;<br>Multi-task Evaluation;<br>Software Testing</td>
-        <td>&check;</td>
-        <td>08/2023</td>
-        <td><a href="https://arxiv.org/abs/2308.05960">Paper</a></td>
-        <td><a href="https://github.com/salesforce/BOLAA">Code</a></td>
+        <td align='center'>BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br>Multi-task Evaluation;<br>Software Testing</td>
+        <td align='center'>&check;</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.05960">Paper</a></td>
+        <td align='center'><a href="https://github.com/salesforce/BOLAA">Code</a></td>
     </tr>
     <tr>
-        <td>Gentopia: A Collaborative Platform for Tool-Augmented LLMs</td>
-        <td>-</td>
-        <td>Isolated Reasoning;<br> Multi-task Evaluation </td>
-        <td>&check;</td>
-        <td>08/2023</td>
-        <td><a href="https://arxiv.org/abs/2308.04030">Paper</a></td>
-        <td><a href="https://github.com/Gentopia-AI/Gentopia">Code</a></td>
+        <td align='center'>Gentopia: A Collaborative Platform for Tool-Augmented LLMs</td>
+        <td align='center'>-</td>
+        <td align='center'>Isolated Reasoning;<br> Multi-task Evaluation </td>
+        <td align='center'>&check;</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.04030">Paper</a></td>
+        <td align='center'><a href="https://github.com/Gentopia-AI/Gentopia">Code</a></td>
     </tr>
 </table>
 
 
-## Contributors
+## Maintainers
 - Lei Wang@[Paitesanshi](https://github.com/Paitesanshi)
-- Xueyang Feng@[XueyangFeng](https://github.com/XueyangFeng)
 - Chen Ma@[Uily](https://github.com/Yilu114)
+- Xueyang Feng@[XueyangFeng](https://github.com/XueyangFeng)
+
 
 ## Citation
 If you find this survey useful, please cite our paper:
