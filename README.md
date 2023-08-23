@@ -44,7 +44,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>Structure</td>
     </tr>
     <tr>
-        <td align='center' style="font-size:12px">WebGPT: Browser-assisted question-answering with human feedback</td>
+        <td align='center'>WebGPT</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
@@ -56,7 +56,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td> 
+        <td align='center'>SayCan</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -68,7 +68,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://say-can.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning</td> 
+        <td align='center'>MRKL</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -80,7 +80,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Inner Monologue: Embodied Reasoning through Planning with Language Models</td> 
+        <td align='center'>Inner Monologue</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -92,7 +92,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://innermonologue.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>  
+        <td align='center'>Social Simulacra</td>  
         <td align='center'>GPT-Generated</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -104,7 +104,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>ReAct: Synergizing Reasoning and Acting in Language Models</td> 
+        <td align='center'>ReAct</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -116,7 +116,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>REPLUG: Retrieval-Augmented Black-Box Language Models</td> 
+        <td align='center'>REPLUG</td> 
         <td align='center'>-</td>  
         <td align='center'>Read/Write/Reflection</td> 
         <td align='center'>Unified</td> 
@@ -128,7 +128,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents</td>  
+        <td align='center'>DEPS</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -140,7 +140,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Toolformer: Language Models Can Teach Themselves to Use Tools</td> 
+        <td align='center'>Toolformer</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -152,7 +152,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/lucidrains/toolformer-pytorch">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Reflexion: Language Agents with Verbal Reinforcement Learning</td> 
+        <td align='center'>Reflexion</td> 
         <td align='center'>-</td>  
         <td align='center'>Read/Write/Reflection</td> 
         <td align='center'>Hybrid</td> 
@@ -164,8 +164,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society 
-        Handcrafting & GPT-Generated</td> 
+        <td align='center'>CAMEL</td> 
         <td align='center'>Handcrafting & GPT-Generated</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -177,7 +176,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/camel-ai/camel">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>API-Bank: A Benchmark for Tool-Augmented LLMs</td> 
+        <td align='center'>API-Bank</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -189,7 +188,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>ViperGPT: Visual Inference via Python Execution for Reasoning</td> 
+        <td align='center'>ViperGPT</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -201,7 +200,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/cvlab-columbia/viper">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>HuggingGPT: Solving AI Tasks with ChatGPT and itsFriends in Hugging Face</td> 
+        <td align='center'>HuggingGPT</td> 
         <td align='center'>-</td>  
         <td align='center'>Read/Write</td> 
         <td align='center'>Unified</td> 
@@ -213,7 +212,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://huggingface.co/">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td> 
+        <td align='center'>Generative Agents</td> 
         <td align='center'>Handcrafting</td> 
         <td align='center'>Read/Write/Reflection</td> 
         <td align='center'>Hybrid</td> 
@@ -225,7 +224,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td> 
+        <td align='center'>LLM+P</td> 
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
@@ -237,7 +236,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Augmenting large language models with chemistry tools</td>
+        <td align='center'>ChemCrow</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
@@ -249,7 +248,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/ur-whitelab/chemcrow-public">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>OpenAGI: When LLM Meets Domain Experts</td>
+        <td align='center'>OpenAGI</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
@@ -261,7 +260,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/agiresearch/OpenAGI/blob/main/README.md">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Auto-GPT: An Autonomous GPT-4 Experiment</td>
+        <td align='center'>AutoGPT</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write</td>
         <td align='center'>Hybrid</td>
@@ -273,7 +272,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Unleashing Infinite-Length Input Capacity for Large-scale Language Models with Self-Controlled Memory System</td>
+        <td align='center'>SCM</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write</td>
         <td align='center'>Hybrid</td>
@@ -285,7 +284,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/wbbeyourself/scm4llms">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Training Socially Aligned Language Models in Simulated Human Society</td>
+        <td align='center'>Socially Alignment</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write</td>
         <td align='center'>Hybrid</td>
@@ -297,7 +296,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/agi-templar/Stable-Alignment">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
+        <td align='center'>GITM</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td>
@@ -309,7 +308,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>Voyager</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Unified</td>
@@ -321,7 +320,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Introspective Tips: Large Language Model for In-Context Decision Making</td>
+        <td align='center'>Introspective Tips</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Unified</td>
@@ -333,7 +332,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>RET-LLM: Towards a General Read-Write Memory for Large Language Models</td>
+        <td align='center'>RET-LLM</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Unified</td>
@@ -345,7 +344,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
+        <td align='center'>ChatDB</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td> 
         <td align='center'>Unified</td> 
@@ -357,7 +356,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'> $\mathbf{s^3}$: Social-network Simulation System with Large Language Model-Empowered Agents</td> 
+        <td align='center'> $\mathbf{s^3}$</td> 
         <td align='center'>Dataset alignment</td>
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td> 
@@ -369,7 +368,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Communicative Agents for Software Development</td>
+        <td align='center'>ChatDev</td>
         <td align='center'>Handcrafting</td>
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Unified</td>
@@ -381,7 +380,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="url">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>ToolLLM</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
@@ -393,7 +392,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>MemoryBank: Enhancing Large Language Models with Long-Term Memory</td> 
+        <td align='center'>MemoryBank</td> 
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td>
@@ -405,7 +404,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/zhongwanjun/MemoryBank-SiliconFriend">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
+        <td align='center'>MetaGPT</td>
         <td align='center'>Handcrafting</td>
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td>
@@ -825,7 +824,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>Code</td>
     </tr>
     <tr>
-        <td align='center'>WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents</td>
+        <td align='center'>WebShop</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
         <td align='center'>&check;</td>
@@ -834,7 +833,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/princeton-nlp/webshop">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems </td>
+        <td align='center'>Social Simulacra</td>
         <td align='center'>Human Annotation</td>
         <td align='center'>Social Evaluation</td>
         <td align='center'>-</td>
@@ -843,7 +842,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
+        <td align='center'>TE</td>
         <td align='center'>-</td>
         <td align='center'>Social Evaluation</td>
         <td align='center'>-</td>
@@ -852,7 +851,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/GatiAher/UsingLarge-Language-Models-to-Replicate-Human-Subject-Studies">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Large Language Models are Few-Shot Testers: Exploring LLM-based General Bug Reproduction</td>
+        <td align='center'>LIBRO</td>
         <td align='center'>-</td>
         <td align='center'>Software Testing</td>
         <td align='center'>-</td>
@@ -861,7 +860,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>ReAct: Synergizing Reasoning and Acting in Language Models</td>
+        <td align='center'>ReAct</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -870,7 +869,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Out of One, Many: Using Language Models to Simulate Human Samples</td>
+        <td align='center'>Out of One, Many</td>
         <td align='center'>Turing Test</td>
         <td align='center'> Isolated Reasoning;<br> Multi-task Evaluation</td>
         <td align='center'>-</td>
@@ -879,7 +878,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents </td>
+        <td align='center'>DEPS</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -888,7 +887,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>ChatGPT and Software Testing Education: Promises & Perils</td>
+        <td align='center'>Jalil et al.</td>
         <td align='center'>-</td>
         <td align='center'>Software Testing</td>
         <td align='center'>-</td>
@@ -897,7 +896,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/sajedjalil/ChatGPT-Software-Testing-Stud">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Reflexion: Language Agents with Verbal Reinforcement Learning</td>
+        <td align='center'>Reflexion</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning</td>
         <td align='center'>-</td>
@@ -906,7 +905,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
+        <td align='center'>IGLU</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -915,7 +914,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>LLM+P: Empowering Large Language Models with Optimal Planning Proficiency</td>
+        <td align='center'>LLM+P</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning</td>
         <td align='center'>-</td>
@@ -924,7 +923,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td>
+        <td align='center'>Generative Agents</td>
         <td align='center'> Human Annoation;<br>Turing Test</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -933,7 +932,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>ToolLLM</td>
         <td align='center'>Human Annoation</td>
         <td align='center'>Multi-task Evalution</td>
         <td align='center'>&check;</td>
@@ -942,7 +941,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Ghost in the Minecraft: Generally Capable Agents for Open-World Enviroments via Large Language Models with Text-based Knowledge and Memory</td>
+        <td align='center'>GITM</td>
         <td align='center'>-</td>
         <td align='center'>Environment simulation</td>
         <td align='center'>&check;</td>
@@ -951,7 +950,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs </td>
+        <td align='center'>Two-Failures</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simulation</td>
         <td align='center'>-</td>
@@ -960,7 +959,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>Voyager</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
@@ -969,7 +968,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Do LLMs Understand Social Knowledge? Evaluating the Sociability of Large Language Models with SOCKET Benchmark </td>
+        <td align='center'>SocKET</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning;<br> Social Evaluation;<br>Multi-task Evaluation </td>
         <td align='center'>&check;</td>
@@ -978,7 +977,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Mobile-Env: An Evaluation Platform and Benchmark for Interactive Agents in LLM Era</td>
+        <td align='center'>Mobile-Env</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
         <td align='center'>&check;</td>
@@ -987,7 +986,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/X-LANCE/Mobile-Env">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents</td>
+        <td align='center'>clembench</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -996,7 +995,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/clp-research/clembench">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Decision-Oriented Dialogue for Human–AI Collaboration</td>
+        <td align='center'>Dialop</td>
         <td align='center'>-</td>
         <td align='center'>Social Evaluation</td>
         <td align='center'>&check;</td>
@@ -1005,7 +1004,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/jlin816/dialop">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory</td>
+        <td align='center'>ChatDB</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning</td>
         <td align='center'>-</td>
@@ -1014,7 +1013,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Towards Autonomous Testing Agents via Conversational Large Language Models</td>
+        <td align='center'>Feldt et al.</td>
         <td align='center'>-</td>
         <td align='center'>Software Testing</td>
         <td align='center'>-</td>
@@ -1023,7 +1022,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Building Cooperative Embodied Agents Modularly with Large Language Models</td>
+        <td align='center'>CO-LLM</td>
         <td align='center'>Human Annoation</td>
         <td align='center'>Environment Simulation</td>
         <td align='center'>-</td>
@@ -1032,7 +1031,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://vis-www.cs.umass.edu/Co-LLM-Agents/">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Tachikuma: Understading Complex Interactions with Multi-Character and Novel Objects by Large Language Models</td>
+        <td align='center'>Tachikuma</td>
         <td align='center'>Human Annoation</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -1041,7 +1040,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Communicative Agents for Software Development</td>
+        <td align='center'>ChatDev</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning</td>
         <td align='center'>-</td>
@@ -1050,7 +1049,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>WebArena: A Realistic Web Environment for Building Autonomous Agents</td>
+        <td align='center'>WebArena</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simluation</td>
         <td align='center'>&check;</td>
@@ -1059,7 +1058,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/web-arena-x/webarena">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</td>
+        <td align='center'>AgentSims</td>
         <td align='center'>-</td>
         <td align='center'>Social Evaluation</td>
         <td align='center'>-</td>
@@ -1068,7 +1067,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/py499372727/AgentSims">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>AgentBench: Evaluating LLMs as Agents</td>
+        <td align='center'>AgentBench</td>
         <td align='center'>-</td>
         <td align='center'>Multi-task Evaluation</td>
         <td align='center'>&check;</td>
@@ -1077,7 +1076,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/thudm/agentbench">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents</td>
+        <td align='center'>BOLAA</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simulation;<br>Multi-task Evaluation;<br>Software Testing</td>
         <td align='center'>&check;</td>
@@ -1086,7 +1085,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'><a href="https://github.com/salesforce/BOLAA">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Gentopia: A Collaborative Platform for Tool-Augmented LLMs</td>
+        <td align='center'>Gentopia</td>
         <td align='center'>-</td>
         <td align='center'>Isolated Reasoning;<br> Multi-task Evaluation </td>
         <td align='center'>&check;</td>
