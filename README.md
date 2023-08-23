@@ -28,7 +28,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
   - [Contact Us](#contact-us)
 
 ## Growth Trend of LLM-based Autonomous Agent
-![Growth Trend](assets/timeline.png)
+![Growth Trend](assets/trend.png)
 <hr>
 
 ## Structure of the Survey
