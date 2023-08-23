@@ -8,15 +8,18 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 
 
-## [Interactive Table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4)
-
-We are maintaining an interactive table that contains papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
-
 ## News
 - [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
 ## Timeline of LLM-based Autonomous Agent
 ![Timeline](assets/timeline.png)
+<hr>
+
+## Structure of the Survey
+![Structure](assets/survey.png)
+<hr>
+
+The tables below provides a part of representative works. For a complete list of works, please refer to the [Complete Table of LLM-based Autonomous Agents](#Complete-Table-of-LLM-based-Autonomous-Agents).
 
 
 ## Construction of LLM-based Autonomous Agent
@@ -24,7 +27,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
 ### Agent Architecture Design
 ![Architecture Design](assets/architecture.png)
 ### Construction Strategies of LLM-based Autonomous Agent
-<table>
+<table >
     <tr>
         <td rowspan='2'align='center'>Model</td>
         <td rowspan='2'align='center'>Profile</td>
@@ -41,7 +44,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>Structure</td>
     </tr>
     <tr>
-        <td align='center'>WebGPT: Browser-assisted question-answering with human feedback</td>
+        <td align='center' style="font-size:12px">WebGPT: Browser-assisted question-answering with human feedback</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
@@ -415,6 +418,8 @@ We are maintaining an interactive table that contains papers related to LLM-base
     </tr>
 </table>
 
+## Application and Evaluation Strategies of LLM-based Autonomous agents
+![Application and Evaluation](assets/app&eval.png)
 
 ## Applications of LLM-based Autonomous Agent
 
@@ -429,16 +434,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>Code</td>
     </tr>
     <tr>
-        <td align='center'>Playing repeated games with Large Language Models</td>
-        <td align='center'>Psychology </td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>05/2022</td>
-        <td align='center'><a href="https://arxiv.org/abs/2305.16867">Paper</a></td>
-        <td align='center'>-</td>
-    </tr>
-    <tr>
-        <td align='center'>Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</td>
+        <td align='center'>SayCan</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -447,16 +443,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://say-can.github.io/">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>A Neural Network Solves, Explains, and Generates University Math Problems by Program Synthesis and Few-Shot Learning at Human Level </td>
-        <td align='center'>-</td>
-        <td align='center'>Science Education</td>
-        <td align='center'>-</td>
-        <td align='center'>06/2022</td>
-        <td align='center'><a href="https://www.pnas.org/doi/full/10.1073/pnas.2123433119">Paper</a></td>
-        <td align='center'>-</td>
-    </tr>
-    <tr>
-        <td align='center'>Social Simulacra: Creating Populated Prototypes for Social Computing Systems</td>
+        <td align='center'>Social Simulacra</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -465,7 +452,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies</td>
+        <td align='center'>TE</td>
         <td align='center'>Psychology </td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -474,7 +461,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/gatiaher/using-large-language-models-to-replicate-human-subject-studies">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Out of One, Many: Using Language Models to Simulate Human Samples</td>
+        <td align='center'>Out of One</td>
         <td align='center'>Political Science and Economy</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -492,7 +479,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/hwchase17/langchain">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Blind Judgement: Agent-Based Supreme Court Modelling With GPT</td>
+        <td align='center'>Blind Judgement</td>
         <td align='center'>Jurisprudence</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -501,7 +488,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?</td>
+        <td align='center'>Horton</td>
         <td align='center'>Political Science and Economy</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -510,7 +497,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making using Language Guided World Modelling</td>
+        <td align='center'>DECKARD</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -519,7 +506,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/DeckardAgent/deckard">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>Collaborating with language models for embodied reasoning</td>
+        <td align='center'>Planner-Actor-Reporter</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -528,7 +515,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>Auto-GPT: An Autonomous GPT-4 Experiment</td>
+        <td align='center'>Auto-GPT</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>General Autonomous Agents</td>
@@ -555,7 +542,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="yoheinakajima/babyagi">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>REFINER: Reasoning Feedback on Intermediate Representations </td>
+        <td align='center'>REFINER</td>
         <td align='center'>Psychology</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -573,7 +560,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/reworkd/AgentGPT">Code</a></td>
     </tr>      
     <tr>
-        <td align='center'>Generative Agents: Interactive Simulacra of Human Behavior</td>
+        <td align='center'>Generative Agents</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -591,15 +578,6 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/eumemic/ai-legion">Code</a></td>
     </tr>    
     <tr>
-        <td align='center'>Emergent autonomous s scientific research capabilities of large language models</td>
-        <td align='center'>-</td>
-        <td align='center'>Document and Data Management<br>Experiment Assistant<br>Science Education</td>
-        <td align='center'>-</td>
-        <td align='center'>04/2023</td>
-        <td align='center'><a href="https://arxiv.org/pdf/2304.05332.pdf">Paper</a></td>
-        <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
-    </tr> 
-    <tr>
         <td align='center'>LoopGPT</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -609,7 +587,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/farizrahman4u/loopgpt">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>Self-collaboration Code Generation via ChatGPT</td>
+        <td align='center'>SCG</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>CS&SE</td>
@@ -627,7 +605,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/Josh-XT/AGiXT">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback </td>
+        <td align='center'>IGLU</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Civil Engineering</td>
@@ -636,7 +614,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>   
     <tr>
-        <td align='center'>Industrial Engineering with Large Language Models: A case study of ChatGPT’s performance on Oil & Gas problems </td>
+        <td align='center'>IELLM</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Aerospace Engineering</td>
@@ -645,7 +623,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>   
     <tr>
-        <td align='center'>Towards autonomous system: flexible modular production system enhanced with large language model agents</td>
+        <td align='center'>GPT4IA</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Industrial Automation</td>
@@ -663,7 +641,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/team-openpm/workgpt">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>AgentVerse:A Framework for Multi-LLM Environment Simulation</td>
+        <td align='center'>AgentVerse</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -699,7 +677,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/TransformerOptimus/SuperAGI">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>VOYAGER: An Open-Ended Embodied Agentwith Large Language Models</td>
+        <td align='center'>VOYAGER</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -708,21 +686,12 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
     </tr>  
     <tr>
-        <td align='center'>Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach</td>
+        <td align='center'>LLM4RL</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'>06/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2306.03604">Paper</a></td>
-        <td align='center'>-</td>
-    </tr>  
-    <tr>
-        <td align='center'>Large Language Model Is Semi-Parametric Reinforcement Learning Agent</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>06/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2306.07929">Paper</a></td>
         <td align='center'>-</td>
     </tr>  
     <tr>
@@ -753,7 +722,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/melih-unsal/DemoGPT">Code</a></td>
     </tr>  
     <tr>
-        <td align='center'>Embodied Task Planning with Large Language Models</td>
+        <td align='center'>TaPA</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -762,7 +731,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>  
     <tr>
-        <td align='center'>Math Agents: Computational Infrastructure Mathematical Embedding, and Genomics</td>
+        <td align='center'>Math Agents</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Science Education</td>
@@ -771,16 +740,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>  
     <tr>
-        <td align='center'>Epidemic Modeling with Generative Agents</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>07/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2307.04986">Paper</a></td>
-        <td align='center'><a href="https://github.com/bear96/GABM-Epidemic">Code</a></td>
-    </tr>  
-    <tr>
-        <td align='center'>The SocialAI School: Insights from Developmental Psychology Towards Artificial Socio-Cultural Agents</td>
+        <td align='center'>SocialAI School</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -789,7 +749,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr>  
     <tr>
-        <td align='center'>Towards A Unified Agent with Foundation Models</td>
+        <td align='center'>Unified Agent</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -798,16 +758,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr> 
     <tr>
-        <td align='center'>Are you in a Masquerade? Exploring the Behavior and Impact of Large Language Model Driven Social Bots in Online Social Networks</td>
-        <td align='center'>Social Simulation</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>07/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2307.10337">Paper</a></td>
-        <td align='center'>-</td>
-    </tr> 
-    <tr>
-        <td align='center'>S3: Social-network Simulation System with Large Language Model-Empowered Agents </td>
+        <td align='center'>S3</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -816,7 +767,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr> 
     <tr>
-        <td align='center'>Dialogue Shaping: Empowering Agents through NPC Interaction</td>
+        <td align='center'>Dialogue Shaping</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
@@ -825,16 +776,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr> 
     <tr>
-        <td align='center'>Understanding the Benefits and Challenges of Using Large Language Model-based Conversational Agents for Mental Well-being Support</td>
-        <td align='center'>Psychology</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>07/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2307.15810">Paper</a></td>
-        <td align='center'>-</td>
-    </tr> 
-    <tr>
-        <td align='center'>ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs</td>
+        <td align='center'>ToolLLM</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>CS&SE</td>
@@ -843,7 +785,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr> 
     <tr>
-        <td align='center'>ChatMOF: An Autonomous AI System for Predicting and Generating Metal-Organic Frameworks</td>
+        <td align='center'>ChatMOF</td>
         <td align='center'>-</td>
         <td align='center'>Document and Data Management</td>
         <td align='center'>-</td>
@@ -852,7 +794,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'>-</td>
     </tr> 
     <tr>
-        <td align='center'>MetaGPT: Meta Programming for Multi-Agent Collaborative Framework</td>
+        <td align='center'>MetaGPT</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>CS&SE</td>
@@ -861,16 +803,7 @@ We are maintaining an interactive table that contains papers related to LLM-base
         <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr> 
     <tr>
-        <td align='center'>The Hitchhiker’s Guide to Program Analysis: A Journey with Large Language Models</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>CS&SE</td>
-        <td align='center'>08/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2308.00245">Paper</a></td>
-        <td align='center'>-</td>
-    </tr> 
-    <tr>
-        <td align='center'>AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework</td>
+        <td align='center'>AutoGen</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>General Autonomous Agents</td>
@@ -1164,6 +1097,13 @@ We are maintaining an interactive table that contains papers related to LLM-base
 </table>
 
 
+<hr>
+
+## Complete Table of LLM-based Autonomous Agents
+![Complete Table](assets/table.png)
+We are maintaining an [interactive table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4) that contains papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
+
+
 ## Maintainers
 - Lei Wang@[Paitesanshi](https://github.com/Paitesanshi)
 - Chen Ma@[Uily](https://github.com/Yilu114)
@@ -1173,11 +1113,13 @@ We are maintaining an interactive table that contains papers related to LLM-base
 ## Citation
 If you find this survey useful, please cite our paper:
 ```
-@article{wang2023survey,
-  title={A Survey on LLM-based Autonomous AI Agents},
-  author={Wang, Lei and Feng, Xueyang and Ma, Chen and others},
-  journal={arXiv preprint arXiv:2108.10356},
-  year={2021}
+@misc{wang2023survey,
+      title={A Survey on Large Language Model based Autonomous Agents}, 
+      author={Lei Wang and Chen Ma and Xueyang Feng and Zeyu Zhang and Hao Yang and Jingsen Zhang and Zhiyuan Chen and Jiakai Tang and Xu Chen and Yankai Lin and Wayne Xin Zhao and Zhewei Wei and Ji-Rong Wen},
+      year={2023},
+      eprint={2308.11432},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
 ## How to Contribute
