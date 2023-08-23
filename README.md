@@ -11,22 +11,32 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 ## News
 - [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
-## Timeline of LLM-based Autonomous Agent
-![Timeline](assets/timeline.png)
+## Table of Contents
+
+- [A Survey on LLM-based Autonomous Agents](#a-survey-on-llm-based-autonomous-agents)
+  - [News](#news)
+  - [Table of Contents](#table-of-contents)
+  - [Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
+  - [Structure of the Survey](#structure-of-the-survey)
+  - [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
+  - [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
+  - [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
+  - [More Comprehensive Summarization](#more-comprehensive-summarization)
+  - [Maintainers](#maintainers)
+  - [Citation](#citation)
+  - [How to Contribute](#how-to-contribute)
+  - [Contact Us](#contact-us)
+
+## Growth Trend of LLM-based Autonomous Agent
+![Growth Trend](assets/timeline.png)
 <hr>
 
 ## Structure of the Survey
 ![Structure](assets/survey.png)
-<hr>
-
-The tables below provides a part of representative works. For a complete list of works, please refer to the [Complete Table of LLM-based Autonomous Agents](#Complete-Table-of-LLM-based-Autonomous-Agents).
 
 
 ## Construction of LLM-based Autonomous Agent
-
-### Agent Architecture Design
 ![Architecture Design](assets/architecture.png)
-### Construction Strategies of LLM-based Autonomous Agent
 <table >
     <tr>
         <td rowspan='2'align='center'>Model</td>
@@ -356,7 +366,7 @@ The tables below provides a part of representative works. For a complete list of
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'> $\mathbf{s^3}$</td> 
+        <td align='center'>S3</td> 
         <td align='center'>Dataset alignment</td>
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td> 
@@ -417,8 +427,7 @@ The tables below provides a part of representative works. For a complete list of
     </tr>
 </table>
 
-## Application and Evaluation Strategies of LLM-based Autonomous agents
-![Application and Evaluation](assets/app&eval.png)
+*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
 
 ## Applications of LLM-based Autonomous Agent
 
@@ -812,6 +821,8 @@ The tables below provides a part of representative works. For a complete list of
     </tr> 
 </table>
 
+*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
+
 ## Evaluation on LLM-based Autonomous Agent
 <table>
     <tr>
@@ -1095,13 +1106,14 @@ The tables below provides a part of representative works. For a complete list of
     </tr>
 </table>
 
+*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
 
 <hr>
 
-## Complete Table of LLM-based Autonomous Agents
-![Complete Table](assets/table.png)
-We are maintaining an [interactive table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4) that contains papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
+## More Comprehensive Summarization
 
+We are maintaining an [interactive table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4) that contains more comprehensive papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
+![Complete Table](assets/table.png)
 
 ## Maintainers
 - Lei Wang@[Paitesanshi](https://github.com/Paitesanshi)
