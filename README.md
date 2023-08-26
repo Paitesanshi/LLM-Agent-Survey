@@ -837,7 +837,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>WebShop</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
+        <td align='center'>Environment Simulation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
         <td align='center'>&check;</td>
         <td align='center'>07/2022</td>
         <td align='center'><a href="https://arxiv.org/abs/2207.01206">Paper</a></td>
@@ -873,7 +873,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>ReAct</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>10/2022</td>
         <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
@@ -891,7 +891,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>DEPS</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>02/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
@@ -918,7 +918,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>IGLU</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>04/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2304.10750">Paper</a></td>
@@ -990,7 +990,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Mobile-Env</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
+        <td align='center'>Environment Simulation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.08144">Paper</a></td>
@@ -999,7 +999,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>clembench</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
@@ -1044,7 +1044,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Tachikuma</td>
         <td align='center'>Human Annoation</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.12573">Paper</a></td>
@@ -1062,7 +1062,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>WebArena</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simluation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.13854">Paper</a></td>
