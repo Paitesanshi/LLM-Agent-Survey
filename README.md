@@ -25,6 +25,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
   - [Maintainers](#maintainers)
   - [Citation](#citation)
   - [How to Contribute](#how-to-contribute)
+  - [Acknowledgement](#acknowledgement)
   - [Contact Us](#contact-us)
 
 ## Growth Trend of LLM-based Autonomous Agent
@@ -954,7 +955,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>GITM</td>
         <td align='center'>-</td>
-        <td align='center'>Environment simulation</td>
+        <td align='center'>Environment Simulation</td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
@@ -1135,6 +1136,13 @@ If you find this survey useful, please cite our paper:
 ```
 ## How to Contribute
 We warmly welcome contributions to this survey and interactive table. If you have a paper or know of relevant research that should be included, please contribute through pull requests, issues, email, or other methods.
+
+## Acknowledgement
+We thank the following people for their valuable suggestions and contributions to this survey:
+- Yifan Song[@Yifan-Song793](https://github.com/Yifan-Song793)
+- Qichen Zhao[@Andrewzh112](https://github.com/Andrewzh112)
+- Ikko E. Ashimine[@eltociear](https://github.com/eltociear)
+
 
 ## Contact Us
 If you have any questions or suggestions, please contact us via:
