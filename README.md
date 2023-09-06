@@ -11,27 +11,18 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 ## News
 - [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
-## Table of Contents
-
-- [News](#news)
-- [Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
-- [Structure of the Survey](#structure-of-the-survey)
-- [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
-- [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
-- [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
-- [More Comprehensive Summarization](#more-comprehensive-summarization)
-- [Maintainers](#maintainers)
-- [Citation](#citation)
-- [How to Contribute](#how-to-contribute)
-- [Acknowledgement](#acknowledgement)
-- [Contact Us](#contact-us)
 
 ## Growth Trend of LLM-based Autonomous Agent
 ![Growth Trend](assets/trend.png)
 <hr>
 
-## Structure of the Survey
-![Structure](assets/survey.png)
+
+## Table of Contents
+
+- [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
+- [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
+- [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
+- [More Comprehensive Summarization](#more-comprehensive-summarization)
 
 
 ## Construction of LLM-based Autonomous Agent
