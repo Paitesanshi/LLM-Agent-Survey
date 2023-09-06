@@ -112,6 +112,18 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
         <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
+        <tr>
+        <td align='center'>LLM Planner</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>wo/ tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>12/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2212.04088">Paper</a></td>
+        <td align='center'><a href="[https://dki-lab.github.io/LLM-Planner/]">Code</a></td>
+    </tr>
     <tr>
         <td align='center'>REPLUG</td> 
         <td align='center'>-</td>  
