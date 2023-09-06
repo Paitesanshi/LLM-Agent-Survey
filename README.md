@@ -824,7 +824,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>WebShop</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simulation;<br> Isolated Reasoning;<br> Multi-task Evaluation </td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation </td>
         <td align='center'>&check;</td>
         <td align='center'>07/2022</td>
         <td align='center'><a href="https://arxiv.org/abs/2207.01206">Paper</a></td>
@@ -869,7 +869,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Out of One, Many</td>
         <td align='center'>Turing Test</td>
-        <td align='center'> Isolated Reasoning;<br> Multi-task Evaluation</td>
+        <td align='center'>Social Evaluation;<br> Multi-task Evaluation</td>
         <td align='center'>-</td>
         <td align='center'>02/2023</td>        
         <td align='center'><a href="https://arxiv.org/abs/2209.06899">Paper</a></td>
@@ -896,7 +896,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Reflexion</td>
         <td align='center'>-</td>
-        <td align='center'>Isolated Reasoning</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
         <td align='center'>-</td>
         <td align='center'>03/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
@@ -912,15 +912,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>LLM+P</td>
-        <td align='center'>-</td>
-        <td align='center'>Isolated Reasoning</td>
-        <td align='center'>-</td>
-        <td align='center'>04/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
-        <td align='center'>-</td>
-    </tr>
-    <tr>
         <td align='center'>Generative Agents</td>
         <td align='center'> Human Annoation;<br>Turing Test</td>
         <td align='center'>-</td>
@@ -930,7 +921,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>ToolLLM</td>
+        <td align='center'>ToolBench</td>
         <td align='center'>Human Annoation</td>
         <td align='center'>Multi-task Evalution</td>
         <td align='center'>&check;</td>
@@ -950,7 +941,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Two-Failures</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simulation</td>
+        <td align='center'>Multi-task Evalution</td>
         <td align='center'>-</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.14279">Paper</a></td>
@@ -968,7 +959,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>SocKET</td>
         <td align='center'>-</td>
-        <td align='center'>Isolated Reasoning;<br> Social Evaluation;<br>Multi-task Evaluation </td>
+        <td align='center'>Social Evaluation;<br>Multi-task Evaluation </td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.14938">Paper</a></td>
@@ -977,16 +968,16 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Mobile-Env</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simulation;<br> Isolated Reasoning;<br> Multi-task Evaluation</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.08144">Paper</a></td>
         <td align='center'><a href="https://github.com/X-LANCE/Mobile-Env">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>clembench</td>
+        <td align='center'>Clembench</td>
         <td align='center'>-</td>
-        <td align='center'>Environment Simulation</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
         <td align='center'>&check;</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
@@ -1000,15 +991,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>06/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.20076">Paper</a></td>
         <td align='center'><a href="https://github.com/jlin816/dialop">Code</a></td>
-    </tr>
-    <tr>
-        <td align='center'>ChatDB</td>
-        <td align='center'>-</td>
-        <td align='center'>Isolated Reasoning</td>
-        <td align='center'>-</td>
-        <td align='center'>06/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2306.03901">Paper</a></td>
-        <td align='center'>-</td>
     </tr>
     <tr>
         <td align='center'>Feldt et al.</td>
@@ -1038,15 +1020,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>ChatDev</td>
-        <td align='center'>-</td>
-        <td align='center'>Isolated Reasoning</td>
-        <td align='center'>-</td>
-        <td align='center'>07/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
-        <td align='center'>-</td>
-    </tr>
-    <tr>
         <td align='center'>WebArena</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simulation</td>
@@ -1054,6 +1027,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.13854">Paper</a></td>
         <td align='center'><a href="https://github.com/web-arena-x/webarena">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>RocoBench</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br> Social Evaluation;<br> Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.04738">Paper</a></td>
+        <td align='center'><a href="https://project-roco.github.io/">Code</a></td>
     </tr>
     <tr>
         <td align='center'>AgentSims</td>
@@ -1090,6 +1072,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>08/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2308.04030">Paper</a></td>
         <td align='center'><a href="https://github.com/Gentopia-AI/Gentopia">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>EmotionBench</td>
+        <td align='center'>Human Annotation</td>
+        <td align='center'>-</td>
+        <td align='center'>&check;</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.03656">Paper</a></td>
+        <td align='center'><a href="https://github.com/CUHK-ARISE/EmotionBench">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>PBLLM</td>
+        <td align='center'>-</td>
+        <td align='center'>Software Testing </td>
+        <td align='center'>&check;</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.06782">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
 </table>
 
