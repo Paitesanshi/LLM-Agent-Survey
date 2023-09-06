@@ -651,7 +651,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Experiment Assistant;<br>Science Education</td>
         <td align='center'>-</td>
         <td align='center'>06/2023</td>
-        <td align='center'>https://www.science.org/doi/full/10.1126/science.adi1778</td>
+        <td align='center'><a href="https://www.science.org/doi/full/10.1126/science.adi1778">Paper</a></td>
         <td align='center'>-</td>
     </tr> 
     <tr>
