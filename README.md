@@ -13,20 +13,18 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 ## Table of Contents
 
-- [A Survey on LLM-based Autonomous Agents](#a-survey-on-llm-based-autonomous-agents)
-  - [News](#news)
-  - [Table of Contents](#table-of-contents)
-  - [Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
-  - [Structure of the Survey](#structure-of-the-survey)
-  - [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
-  - [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
-  - [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
-  - [More Comprehensive Summarization](#more-comprehensive-summarization)
-  - [Maintainers](#maintainers)
-  - [Citation](#citation)
-  - [How to Contribute](#how-to-contribute)
-  - [Acknowledgement](#acknowledgement)
-  - [Contact Us](#contact-us)
+- [News](#news)
+- [Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
+- [Structure of the Survey](#structure-of-the-survey)
+- [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
+- [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
+- [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
+- [More Comprehensive Summarization](#more-comprehensive-summarization)
+- [Maintainers](#maintainers)
+- [Citation](#citation)
+- [How to Contribute](#how-to-contribute)
+- [Acknowledgement](#acknowledgement)
+- [Contact Us](#contact-us)
 
 ## Growth Trend of LLM-based Autonomous Agent
 ![Growth Trend](assets/trend.png)
