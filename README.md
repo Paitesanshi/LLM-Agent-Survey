@@ -417,7 +417,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     </tr>
 </table>
 
-*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
+* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization). *
 
 ## Applications of LLM-based Autonomous Agent
 
@@ -811,7 +811,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     </tr> 
 </table>
 
-*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
+* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).*
 
 ## Evaluation on LLM-based Autonomous Agent
 <table>
@@ -1096,7 +1096,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     </tr>
 </table>
 
-*This table only summarizes partial previous work. See section [More comprehensive Summarization](#more-comprehensive-summarization) for more papers.*
+* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).*
 
 <hr>
 
