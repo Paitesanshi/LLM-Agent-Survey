@@ -997,6 +997,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/clp-research/clembench">Code</a></td>
     </tr>
     <tr>
+        <td align='center'>Mind2Web</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.06070">Paper</a></td>
+        <td align='center'><a href="https://github.com/OSU-NLP-Group/Mind2Web">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>Dialop</td>
         <td align='center'>-</td>
         <td align='center'>Social Evaluation</td>
