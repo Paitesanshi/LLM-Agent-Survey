@@ -429,6 +429,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Code</td>
     </tr>
     <tr>
+        <td align='center'>Drori et al.</td>
+        <td align='center'>-</td>
+        <td align='center'>Science Education</td>
+        <td align='center'>-</td>
+        <td align='center'>12/2021</td>
+        <td align='center'><a href="https://arxiv.org/abs/2112.15594">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
         <td align='center'>SayCan</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -465,15 +474,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>
     <tr>
-        <td align='center'>LangChain</td>
-        <td align='center'>Psychology </td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>10/2022</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/hwchase17/langchain">Code</a></td>
-    </tr>
-    <tr>
         <td align='center'>Blind Judgement</td>
         <td align='center'>Jurisprudence</td>
         <td align='center'>-</td>
@@ -508,52 +508,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>02/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2302.00763">Paper</a></td>
         <td align='center'>-</td>
-    </tr>
-    <tr>
-        <td align='center'>Auto-GPT</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>03/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
-    </tr>
-    <tr>
-        <td align='center'>BMTools</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>03/2023</td>
-        <td align='center'><a href="https://arxiv.org/pdf/2304.08354.pdf">Paper</a></td>
-        <td align='center'><a href="https://github.com/OpenBMB/BMTools">Code</a></td>
-    </tr>
-    <tr>
-        <td align='center'>BabyAGI</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>04/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="yoheinakajima/babyagi">Code</a></td>
-    </tr>
-    <tr>
-        <td align='center'>REFINER</td>
-        <td align='center'>Psychology</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>04/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2304.01904">Paper</a></td>
-        <td align='center'><a href="https://github.com/debjitpaul/refiner">Code</a></td>
-    </tr>      
-    <tr>
-        <td align='center'>AgentGPT</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>04/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2304.01904">Paper</a></td>
-        <td align='center'><a href="https://github.com/reworkd/AgentGPT">Code</a></td>
-    </tr>      
+    </tr>  
     <tr>
         <td align='center'>Generative Agents</td>
         <td align='center'>Social Simulation</td>
@@ -564,24 +519,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>    
     <tr>
-        <td align='center'>AI-legion</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>04/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/eumemic/ai-legion">Code</a></td>
-    </tr>    
-    <tr>
-        <td align='center'>LoopGPT</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>04/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2303.01665">Paper</a></td>
-        <td align='center'><a href="https://github.com/farizrahman4u/loopgpt">Code</a></td>
-    </tr>   
-    <tr>
         <td align='center'>SCG</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -589,15 +526,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>04/2023</td>
         <td align='center'><a href="https://arxiv.org/pdf/2304.07590">Paper</a></td>
         <td align='center'>-</td>
-    </tr>   
-    <tr>
-        <td align='center'>AGiXT</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>04/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/Josh-XT/AGiXT">Code</a></td>
     </tr>   
     <tr>
         <td align='center'>IGLU</td>
@@ -612,7 +540,25 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>IELLM</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
-        <td align='center'>Aerospace Engineering</td>
+        <td align='center'>Industrial Automation</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.14354">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>ChemCrow</td>
+        <td align='center'>-</td>
+        <td align='center'>Document and Data Management;<br>Documentation, Data Managent;<br>Science Education<br></td>
+        <td align='center'>-</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.05332">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>Boiko et al.</td>
+        <td align='center'>-</td>
+        <td align='center'>Document and Data Management;<br>Documentation, Data Managent;<br>Science Education<br></td>
+        <td align='center'>-</td>
         <td align='center'>04/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2304.14354">Paper</a></td>
         <td align='center'>-</td>
@@ -627,14 +573,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/YuchenXia/GPT4IndustrialAutomation">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>Workgpt</td>
+        <td align='center'>Akata et al.</td>
+        <td align='center'>Psychology </td>
         <td align='center'>-</td>
         <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
         <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.16867">Paper</a></td>
         <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/team-openpm/workgpt">Code</a></td>
-    </tr>   
+    </tr>
+    <tr>
+        <td align='center'>Ziems et al.</td>
+        <td align='center'>Psychology;<br>Political Science and Economy;<br>Research Assistant </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.03514">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    bail
     <tr>
         <td align='center'>AgentVerse</td>
         <td align='center'>Social Simulation</td>
@@ -642,17 +598,8 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
         <td align='center'>05/2023</td>
         <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/OpenBMB/AgentVerse">Code</a></td>
-    </tr>   
-    <tr>
-        <td align='center'>GPT Researcher</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>05/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2304.01852">Paper</a></td>
-        <td align='center'><a href="https://github.com/assafelovic/gpt-researcher">Code</a></td>
-    </tr>   
+        <td align='center'><a href="https://githuba.com/OpenBMB/AgentVerse">Code</a></td>
+    </tr>     
     <tr>
         <td align='center'>SmolModels</td>
         <td align='center'>-</td>
@@ -663,22 +610,22 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/smol-ai/developer">Code</a></td>
     </tr>   
     <tr>
-        <td align='center'>SuperAGI</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
-        <td align='center'>05/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/TransformerOptimus/SuperAGI">Code</a></td>
-    </tr>   
-    <tr>
-        <td align='center'>VOYAGER</td>
+        <td align='center'>Voyager</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>NLSOM</td>
+        <td align='center'>-</td>
+        <td align='center'>Science Education</td>
+        <td align='center'>-</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.17066">Paper</a></td>
+        <td align='center'>-</td>
     </tr>  
     <tr>
         <td align='center'>LLM4RL</td>
@@ -697,24 +644,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>06/2023</td>
         <td align='center'>-</td>
         <td align='center'><a href="https://github.com/AntonOsika/gpt-engineer">Code</a></td>
-    </tr>  
+    </tr> 
     <tr>
-        <td align='center'>MiniAGI</td>
+        <td align='center'>Grossman et al.</td>
         <td align='center'>-</td>
+        <td align='center'>Experiment Assistant;<br>Science Education</td>
         <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
         <td align='center'>06/2023</td>
+        <td align='center'>https://www.science.org/doi/full/10.1126/science.adi1778</td>
         <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/muellerberndt/mini-agi">Code</a></td>
-    </tr>  
+    </tr> 
     <tr>
-        <td align='center'>DemoGPT</td>
+        <td align='center'>Chatlaw</td>
+        <td align='center'>Jurisprudence</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents;<br>CS&SE</td>
         <td align='center'>06/2023</td>
-        <td align='center'>-</td>
-        <td align='center'><a href="https://github.com/melih-unsal/DemoGPT">Code</a></td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.16092">Paper</a></td>
+        <td align='center'><a href="https://github.com/PKU-YuanGroup/ChatLaw">Code</a></td>
     </tr>  
     <tr>
         <td align='center'>TaPA</td>
@@ -726,10 +673,19 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>  
     <tr>
+        <td align='center'>Ma et al.</td>
+        <td align='center'>Psychology </td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.15810">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
         <td align='center'>Math Agents</td>
         <td align='center'>-</td>
-        <td align='center'>-</td>
         <td align='center'>Science Education</td>
+        <td align='center'>-</td>
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/pdf/2307.02502">Paper</a></td>
         <td align='center'>-</td>
@@ -750,6 +706,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.09668">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>   
+    <tr>
+        <td align='center'>Wiliams et al.</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.04986">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>Li et al.</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.10337">Paper</a></td>
         <td align='center'>-</td>
     </tr> 
     <tr>
@@ -780,9 +754,27 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr> 
     <tr>
+        <td align='center'>Chao et al.</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.13304v1">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>AgentSims</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.04026">Paper</a></td>
+        <td align='center'><a href="https://github.com/py499372727/AgentSims">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>ChatMOF</td>
         <td align='center'>-</td>
-        <td align='center'>Document and Data Management</td>
+        <td align='center'>Document and Data Management;<br>Science Education</td>
         <td align='center'>-</td>
         <td align='center'>08/2023</td>
         <td align='center'><a href="https://arxiv.org/pdf/2308.01423">Paper</a></td>
@@ -798,13 +790,22 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr> 
     <tr>
+        <td align='center'>Codehelp</td>
+        <td align='center'>-</td>
+        <td align='center'>Science Education</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.06921">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
         <td align='center'>AutoGen</td>
         <td align='center'>-</td>
+        <td align='center'>Science Education</td>
         <td align='center'>-</td>
-        <td align='center'>General Autonomous Agents</td>
         <td align='center'>08/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2308.08155">Paper</a></td>
-        <td align='center'><a href="https://microsoft.github.io/FLAML/docs/Use-Cases/Autogen/">Code</a></td>
+        <td align='center'>-</td>
     </tr> 
 </table>
 
