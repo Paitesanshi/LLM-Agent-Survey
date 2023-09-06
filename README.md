@@ -1135,8 +1135,7 @@ If you find this survey useful, please cite our paper:
 }
 ```
 ## How to Contribute
-We warmly welcome contributions to this survey and interactive table. If you have a paper or know of relevant research that should be included, please contribute through pull requests, issues, email, or other methods.
-
+We kindly invite contributions to this survey and interactive table. If you have a paper or are aware of relevant research that should be incorporated, please contribute via pull requests, issues, email, or other suitable methods.
 ## Acknowledgement
 We thank the following people for their valuable suggestions and contributions to this survey:
 - Yifan Song[@Yifan-Song793](https://github.com/Yifan-Song793)
