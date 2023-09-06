@@ -122,7 +122,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Environment feedback</td> 
         <td align='center'>12/2022</td> 
         <td align='center'><a href="https://arxiv.org/abs/2212.04088">Paper</a></td>
-        <td align='center'><a href="[https://dki-lab.github.io/LLM-Planner/]">Code</a></td>
+        <td align='center'><a href="https://dki-lab.github.io/LLM-Planner">Code</a></td>
     </tr>
     <tr>
         <td align='center'>REPLUG</td> 
