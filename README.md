@@ -17,7 +17,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 <hr>
 
 
-## Table of Contents
+## Quick Navigation
 
 - [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
 - [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
