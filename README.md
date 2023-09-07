@@ -1218,7 +1218,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/CUHK-ARISE/EmotionBench">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>PBLLM</td>
+        <td align='center'>PTB</td>
         <td align='center'>-</td>
         <td align='center'>Software Testing </td>
         <td align='center'>&check;</td>
