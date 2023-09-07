@@ -474,6 +474,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>
     <tr>
+        <td align='center'>LIBRO</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>09/2022</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2209.11515">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
         <td align='center'>Blind Judgement</td>
         <td align='center'>Jurisprudence</td>
         <td align='center'>-</td>
@@ -508,6 +517,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>02/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2302.00763">Paper</a></td>
         <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>RCI</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>03/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2303.17491">Paper</a></td>
+        <td align='center'><a href="https://github.com/posgnu/rci-agent">Code</a></td>
     </tr>  
     <tr>
         <td align='center'>Generative Agents</td>
@@ -571,6 +589,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>04/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2304.14721">Paper</a></td>
         <td align='center'><a href="https://github.com/YuchenXia/GPT4IndustrialAutomation">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>Self-collaboration</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>04/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.07590">Paper</a></td>
+        <td align='center'>-</td>
     </tr>   
     <tr>
         <td align='center'>Akata et al.</td>
@@ -607,7 +634,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>05/2023</td>
         <td align='center'>-</td>
         <td align='center'><a href="https://github.com/smol-ai/developer">Code</a></td>
-    </tr>   
+    </tr> 
     <tr>
         <td align='center'>Voyager</td>
         <td align='center'>-</td>
@@ -654,6 +681,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr> 
     <tr>
+        <td align='center'>SQL-PALM</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.00739">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>DemoGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>06/2023</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/melih-unsal/DemoGPT">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>Chatlaw</td>
         <td align='center'>Jurisprudence</td>
         <td align='center'>-</td>
@@ -662,6 +707,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://arxiv.org/abs/2306.16092">Paper</a></td>
         <td align='center'><a href="https://github.com/PKU-YuanGroup/ChatLaw">Code</a></td>
     </tr>  
+    <tr>
+        <td align='center'>RestGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.06624">Paper</a></td>
+        <td align='center'><a href="https://restgpt.github.io">Code</a></td>
+    </tr>
     <tr>
         <td align='center'>TaPA</td>
         <td align='center'>-</td>
@@ -753,6 +807,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
     </tr> 
     <tr>
+        <td align='center'>ChatDEV</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
         <td align='center'>Chao et al.</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
@@ -805,7 +868,79 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>08/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2308.08155">Paper</a></td>
         <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>RAH</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.09904">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>DB-GPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.05481">Paper</a></td>
+        <td align='center'><a href="https://github.com/TsinghuaDatabaseGroup/DB-GPT">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>RecMind</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.14296">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>ChatEDA</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.10204">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>InteRecAgent</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.16505">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>InteRecAgent</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.16505">Paper</a></td>
+        <td align='center'>-</td>
     </tr> 
+    <tr>
+        <td align='center'>PentestGPT</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.06782">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>Codehelp</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.06921">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
