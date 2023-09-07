@@ -34,7 +34,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
   - [News](#news)
   - [Table of Contents](#table-of-contents)
   - [🔥Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
-  - [📋 Structure of the Survey](#-structure-of-the-survey)
+  - [📋Structure of the Survey](#structure-of-the-survey)
   - [🤖Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
   - [🌐Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
   - [📊Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
@@ -49,7 +49,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 ![Growth Trend](assets/trend.png)
 <hr>
 
-## 📋 Structure of the Survey
+## 📋Structure of the Survey
 ![Structure](assets/survey.png)
 
 
