@@ -590,7 +590,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://arxiv.org/abs/2305.03514">Paper</a></td>
         <td align='center'>-</td>
     </tr>
-    bail
     <tr>
         <td align='center'>AgentVerse</td>
         <td align='center'>Social Simulation</td>
