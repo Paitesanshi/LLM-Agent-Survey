@@ -915,15 +915,6 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>  
     <tr>
-        <td align='center'>InteRecAgent</td>
-        <td align='center'>-</td>
-        <td align='center'>-</td>
-        <td align='center'>CS&SE</td>
-        <td align='center'>08/2023</td>
-        <td align='center'><a href="https://arxiv.org/abs/2308.16505">Paper</a></td>
-        <td align='center'>-</td>
-    </tr> 
-    <tr>
         <td align='center'>PentestGPT</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
