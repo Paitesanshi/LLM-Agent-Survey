@@ -447,6 +447,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://say-can.github.io/">Code</a></td>
     </tr>
     <tr>
+        <td align='center'>Inner monologue</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2022</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2207.05608">Paper</a></td>
+        <td align='center'><a href="https://innermonologue.github.io/">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Language-Planners</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2022</td>
+        <td align='center'><a href="https://arxiv.org/abs/2201.07207">Paper</a></td>
+        <td align='center'><a href="https://github.com/huangwl18/language-planner">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>Social Simulacra</td>
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
@@ -516,6 +534,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'>02/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2302.00763">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
+        <td align='center'>DEPS</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>02/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
         <td align='center'>-</td>
     </tr>  
     <tr>
@@ -600,6 +627,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr>   
     <tr>
+        <td align='center'>E2WM</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.10626">Paper</a></td>
+        <td align='center'><a href=" szxiangjn/world-model-for-language-model (github.com)">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>Akata et al.</td>
         <td align='center'>Psychology </td>
         <td align='center'>-</td>
@@ -636,6 +672,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://github.com/smol-ai/developer">Code</a></td>
     </tr> 
     <tr>
+        <td align='center'>TidyBot</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.05658">Paper</a></td>
+        <td align='center'><a href="https://github.com/jimmyyhwu/tidybot">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>PET</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.02412">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+    <tr>
         <td align='center'>Voyager</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -643,6 +697,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
+    </tr>  
+    <tr>
+        <td align='center'>GITM</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>05/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
     </tr>  
     <tr>
         <td align='center'>NLSOM</td>
@@ -690,6 +753,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>
     </tr> 
     <tr>
+        <td align='center'>REMEMBER</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.07929">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
+    <tr>
         <td align='center'>DemoGPT</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
@@ -716,6 +788,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://arxiv.org/abs/2306.06624">Paper</a></td>
         <td align='center'><a href="https://restgpt.github.io">Code</a></td>
     </tr>
+    <tr>
+        <td align='center'>Dialogue shaping</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.15833">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
     <tr>
         <td align='center'>TaPA</td>
         <td align='center'>-</td>
@@ -796,6 +877,24 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/pdf/2307.15833.pdf">Paper</a></td>
         <td align='center'>-</td>
+    </tr> 
+    <tr>
+        <td align='center'>RoCo</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.06135">Paper</a></td>
+        <td align='center'><a href="https://project-roco.github.io/">Code</a></td>
+    </tr> 
+    <tr>
+        <td align='center'>Sayplan</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>07/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2307.04738">Paper</a></td>
+        <td align='center'><a href="https://sayplan.github.io/">Code</a></td>
     </tr> 
     <tr>
         <td align='center'>ToolLLM</td>
@@ -913,7 +1012,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>08/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2308.16505">Paper</a></td>
         <td align='center'>-</td>
-    </tr>  
+    </tr> 
     <tr>
         <td align='center'>PentestGPT</td>
         <td align='center'>-</td>
@@ -932,6 +1031,15 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'><a href="https://arxiv.org/abs/2308.06921">Paper</a></td>
         <td align='center'>-</td>
     </tr>
+    <tr>
+        <td align='center'>ProAgent</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+     	<td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>08/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.11339">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
