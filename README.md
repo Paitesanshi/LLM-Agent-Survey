@@ -6,23 +6,54 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 
 ## News
+- [9/8/2023] The second version of the paper is released on arXiv with updates on the following aspects:
+  - <details>
+
+    <summary>Latest Updates</summary>
+
+    -  **📚Added References**
+        - Added 31 new references during the period from 8/23/2023 to 9/1/2023, to enrich the literature support.
+
+    -  **📊New Figures**
+        - **Figure 3:** Added a new chart illustrating the differences and similarities between various planning approaches. This helps in gaining a clearer understanding of the comparisons between different planning methods.
+        ![single-path and multi-path reasoning](assets/planning.png)
+        - **Figure 4:** Introduced a new chart that describes the evolutionary path of model capability acquisition from the "Machine Learning era" to the "Large Language Model era" and then to the "Agent era." Specifically, a new concept, "mechanism engineering," has been introduced, which, along with "parameter learning" and "prompt engineering," forms part of this evolutionary path.
+        ![Capabilities Acquisition](assets/capability.png)
+
+    -  **🔍Optimized Classification System**
+        - Made appropriate modifications to the existing classification system to make it more logical and organized. This will assist in better organizing and presenting the content of the document.
+
+
+  </details>
+
 - [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
+## Table of Contents
 
-## Growth Trend of LLM-based Autonomous Agent
+- [A Survey on LLM-based Autonomous Agents](#a-survey-on-llm-based-autonomous-agents)
+  - [News](#news)
+  - [Table of Contents](#table-of-contents)
+  - [🔥Growth Trend of LLM-based Autonomous Agent](#growth-trend-of-llm-based-autonomous-agent)
+  - [📋 Structure of the Survey](#-structure-of-the-survey)
+  - [🤖Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
+  - [🌐Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
+  - [📊Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
+  - [More Comprehensive Summarization](#more-comprehensive-summarization)
+  - [Maintainers](#maintainers)
+  - [Citation](#citation)
+  - [How to Contribute](#how-to-contribute)
+  - [Acknowledgement](#acknowledgement)
+  - [Contact Us](#contact-us)
+
+## 🔥Growth Trend of LLM-based Autonomous Agent
 ![Growth Trend](assets/trend.png)
 <hr>
 
-
-## Quick Navigation
-
-- [Construction of LLM-based Autonomous Agent](#construction-of-llm-based-autonomous-agent)
-- [Applications of LLM-based Autonomous Agent](#applications-of-llm-based-autonomous-agent)
-- [Evaluation on LLM-based Autonomous Agent](#evaluation-on-llm-based-autonomous-agent)
-- [More Comprehensive Summarization](#more-comprehensive-summarization)
+## 📋 Structure of the Survey
+![Structure](assets/survey.png)
 
 
-## Construction of LLM-based Autonomous Agent
+## 🤖Construction of LLM-based Autonomous Agent
 ![Architecture Design](assets/architecture.png)
 <table >
     <tr>
@@ -31,7 +62,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td colspan='2'align='center'>Memory</td>
         <td rowspan='2'align='center'>Planning</td>
         <td rowspan='2'align='center'>Action</td>
-        <td rowspan='2'align='center'>LS</td>
+        <td rowspan='2'align='center'>CA</td>
         <td rowspan='2'align='center'>Time</td>        
         <td rowspan='2'align='center'>Paper</td>
         <td rowspan='2'align='center'>Code</td>
@@ -47,7 +78,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>w/ tools</td> 
-        <td align='center'>Human feedback</td> 
+        <td align='center'>w/ fine-tuning</td> 
         <td align='center'>12/2021</td>
         <td align='center'><a href="https://arxiv.org/abs/2112.09332">Paper</a></td>
         <td align='center'>-</td>
@@ -58,8 +89,8 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>w/o feedback</td> 
-        <td align='center'>w/ tools</td> 
-        <td align='center'>Environment feedback</td>  
+        <td align='center'>w/o tools</td> 
+        <td align='center'>w/o fine-tuning</td>  
         <td align='center'>04/2022</td> 
         <td align='center'><a href="https://arxiv.org/abs/2204.01691">Paper</a></td>
         <td align='center'><a href="https://say-can.github.io/">Code</a></td>
@@ -82,8 +113,8 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>w/ feedback</td> 
-        <td align='center'>w/ tools</td> 
-        <td align='center'>Environment feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>07/2022</td> 
         <td align='center'><a href="https://arxiv.org/abs/2207.05608">Paper</a></td>
         <td align='center'><a href="https://innermonologue.github.io/">Code</a></td>
@@ -107,21 +138,21 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>w/ feedback</td> 
         <td align='center'>w/ tools</td> 
-        <td align='center'>Environment feedback</td> 
+        <td align='center'>w/ fine-tuning</td> 
         <td align='center'>10/2022</td> 
         <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
         <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
     <tr>
-        <td align='center'>REPLUG</td> 
+        <td align='center'>MALLM</td> 
         <td align='center'>-</td>  
-        <td align='center'>Read/Write/Reflection</td> 
-        <td align='center'>Unified</td> 
+        <td align='center'>Read/Write</td> 
+        <td align='center'>Hybrid</td> 
         <td align='center'>-</td>  
         <td align='center'>w/o tools</td> 
         <td align='center'>-</td>  
         <td align='center'>01/2023</td> 
-        <td align='center'><a href="https://arxiv.org/abs/2301.12652">Paper</a></td>
+        <td align='center'><a href="https://arxiv.org/abs/2301.04589">Paper</a></td>
         <td align='center'>-</td>
     </tr>
     <tr>
@@ -130,11 +161,11 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>w/ feedback</td> 
-        <td align='center'>w/ tools</td> 
-        <td align='center'>Environment feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>02/2023</td> 
         <td align='center'><a href="https://arxiv.org/abs/2302.01560">Paper</a></td>
-        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/CraftJarvis/MC-Planner">Code</a></td>
     </tr>
     <tr>
         <td align='center'>Toolformer</td> 
@@ -143,7 +174,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>w/o feedback</td> 
         <td align='center'>w/ tools</td> 
-        <td align='center'>Example</td>  
+        <td align='center'>w/ fine-tuning</td>  
         <td align='center'>02/2023</td> 
         <td align='center'><a href="https://arxiv.org/abs/2302.04761">Paper</a></td>
         <td align='center'><a href="https://github.com/lucidrains/toolformer-pytorch">Code</a></td>
@@ -155,7 +186,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Hybrid</td> 
         <td align='center'>w/ feedback</td> 
         <td align='center'>w/o tools</td> 
-        <td align='center'>Environment feedback</td> 
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>03/2023</td> 
         <td align='center'><a href="https://arxiv.org/abs/2303.11366">Paper</a></td>
         <td align='center'><a href="https://github.com/noahshinn024/reflexion">Code</a></td>
@@ -179,7 +210,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>w/ feedback</td>  
         <td align='center'>w/ tools</td> 
-        <td align='center'>Example</td> 
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>04/2023</td> 
         <td align='center'><a href="url">Paper</a></td>
         <td align='center'><a href="url">Code</a></td>
@@ -199,7 +230,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>HuggingGPT</td> 
         <td align='center'>-</td>  
-        <td align='center'>Read/Write</td> 
+        <td align='center'>-</td> 
         <td align='center'>Unified</td> 
         <td align='center'>w/o feedback</td>  
         <td align='center'>w/ tools</td> 
@@ -213,7 +244,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Handcrafting</td> 
         <td align='center'>Read/Write/Reflection</td> 
         <td align='center'>Hybrid</td> 
-        <td align='center'>w/o feedback</td> 
+        <td align='center'>w/ feedback</td> 
         <td align='center'>w/o tools</td>  
         <td align='center'>-</td>  
         <td align='center'>04/2023</td> 
@@ -226,7 +257,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>w/o feedback</td> 
-        <td align='center'>w/ tools</td> 
+        <td align='center'>w/o tools</td> 
         <td align='center'>-</td>  
         <td align='center'>04/2023</td> 
         <td align='center'><a href="https://arxiv.org/abs/2304.11477">Paper</a></td>
@@ -237,7 +268,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
-        <td align='center'>w feedback</td>
+        <td align='center'>w/ feedback</td>
         <td align='center'>w/ tools</td>
         <td align='center'>-</td> 
         <td align='center'>04/2023</td>
@@ -249,11 +280,11 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td> 
         <td align='center'>-</td> 
         <td align='center'>-</td> 
-        <td align='center'>w feedback</td>
+        <td align='center'>w/ feedback</td>
         <td align='center'>w/ tools</td>
-        <td align='center'>Example</td>
+        <td align='center'>w/ fine-tuning</td>
         <td align='center'>04/2023</td>
-        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.04370">Paper</a></td>
         <td align='center'><a href="https://github.com/agiresearch/OpenAGI/blob/main/README.md">Code</a></td>
     </tr>
     <tr>
@@ -261,9 +292,9 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td> 
         <td align='center'>Read/Write</td>
         <td align='center'>Hybrid</td>
-        <td align='center'>w feedback</td>
-        <td align='center'>w tools</td>
-        <td align='center'>Environment feedback</td> 
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>04/2023</td>
         <td align='center'>-</td>
         <td align='center'><a href="https://github.com/Significant-Gravitas/Auto-GPT">Code</a></td>
@@ -299,7 +330,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Hybrid</td>
         <td align='center'>w/ feedback</td> 
         <td align='center'>w/o tools</td>
-        <td align='center'>Environment feedback</td>
+        <td align='center'>w/ fine-tuning</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.17144">Paper</a></td>
         <td align='center'><a href="https://github.com/OpenGVLab/GITM">Code</a></td>
@@ -308,10 +339,10 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Voyager</td>
         <td align='center'>-</td> 
         <td align='center'>Read/Write/Reflection</td>
-        <td align='center'>Unified</td>
+        <td align='center'>Hybrid</td>
         <td align='center'>w/ feedback</td> 
         <td align='center'>w/o tools</td>
-        <td align='center'>Environment feedback</td>
+        <td align='center'>w/o fine-tuning</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.16291">Paper</a></td>
         <td align='center'><a href="https://github.com/MineDojo/Voyager">Code</a></td>
@@ -319,11 +350,11 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>Introspective Tips</td>
         <td align='center'>-</td> 
-        <td align='center'>Read/Write/Reflection</td>
-        <td align='center'>Unified</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
         <td align='center'>w/ feedback</td>
         <td align='center'>w/o tools</td>
-        <td align='center'>Example & Environment feedback</td>
+        <td align='center'>w/o fine-tuning</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.11598">Paper</a></td>
         <td align='center'>-</td>
@@ -331,11 +362,11 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>RET-LLM</td>
         <td align='center'>-</td> 
-        <td align='center'>Read/Write/Reflection</td>
-        <td align='center'>Unified</td>
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
         <td align='center'>-</td> 
         <td align='center'>w/o tools</td>
-        <td align='center'>Example</td>
+        <td align='center'>w/ fine-tuning</td>
         <td align='center'>05/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.14322">Paper</a></td>
         <td align='center'>-</td>
@@ -343,8 +374,8 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <tr>
         <td align='center'>ChatDB</td>
         <td align='center'>-</td> 
-        <td align='center'>Read/Write/Reflection</td> 
-        <td align='center'>Unified</td> 
+        <td align='center'>Read/Write</td> 
+        <td align='center'>Hybrid</td> 
         <td align='center'>w/ feedback</td>
         <td align='center'>w/ tools</td> 
         <td align='center'>-</td> 
@@ -357,9 +388,9 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Dataset alignment</td>
         <td align='center'>Read/Write/Reflection</td>
         <td align='center'>Hybrid</td> 
-        <td align='center'>w/o feedback</td> 
-        <td align='center'>w/o tools</td>
         <td align='center'>-</td> 
+        <td align='center'>w/o tools</td>
+        <td align='center'>w/ fine-tuning</td> 
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.14984">Paper</a></td>
         <td align='center'>-</td>
@@ -371,10 +402,10 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>Unified</td>
         <td align='center'>w/ feedback</td>
         <td align='center'>w/o tools</td>
-        <td align='center'>-</td> 
+        <td align='center'>w/o fine-tuning</td> 
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.07924">Paper</a></td>
-        <td align='center'><a href="url">Code</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/ChatDev">Code</a></td>
     </tr>
     <tr>
         <td align='center'>ToolLLM</td>
@@ -383,7 +414,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         <td align='center'>-</td> 
         <td align='center'>w/ feedback</td> 
         <td align='center'>w/ tools</td>
-        <td align='center'>Example</td>
+        <td align='center'>w/ fine-tuning</td>
         <td align='center'>07/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2307.16789">Paper</a></td>
         <td align='center'><a href="https://github.com/OpenBMB/ToolBench">Code</a></td>
@@ -416,7 +447,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 * More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization). 
 
-## Applications of LLM-based Autonomous Agent
+## 🌐Applications of LLM-based Autonomous Agent
 
 <table>
     <tr>
@@ -1044,7 +1075,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 * More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
 
-## Evaluation on LLM-based Autonomous Agent
+## 📊Evaluation on LLM-based Autonomous Agent
 <table>
     <tr>
         <td align='center'>Model</td>
