@@ -4,7 +4,7 @@ Autonomous agents are designed to accomplish specific objectives by self-guided 
 Our paper and this repository aim to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field.
 
 ## News
-- [9/8/2023] The second version of the paper is released on arXiv with updates on the following aspects:
+- [9/8/2023] The second version of our survey has been released on arXiv.
  - <details>
     <summary>Latest Updates</summary>
 
@@ -19,11 +19,10 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
     -  **🔍 Optimized Classification System**
         - Made appropriate modifications to the existing classification system to make it more logical and organized. This will assist in better organizing and presenting the content of the document.
-
-
+        - 
   </details>
 
-- [8/23/2023] The first version of the paper is released on arXiv: [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+- [8/23/2023] The second version of our survey has been released on arXiv. See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
 <!--omit in the toc-->
 ## Table of Content
