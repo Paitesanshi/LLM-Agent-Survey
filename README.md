@@ -4,7 +4,7 @@ Autonomous agents are designed to accomplish specific objectives by self-guided 
 Our paper and this repository aim to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field.
 
 ## News
-- [9/8/2023] The second version of our survey has been released on arXiv.
+- 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
     <summary>Specific Updates</summary>
 
@@ -12,9 +12,9 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         - Added 31 new works until 9/1/2023, to enrich the literature support.
 
     -  **📊 New Figures**
-        - **Figure 3:** Added a new chart illustrating the differences and similarities between various planning approaches. This helps in gaining a clearer understanding of the comparisons between different planning methods.
+        - **Figure 3:** This is a new figure illustrating the differences and similarities between various planning approaches. This helps in gaining a clearer understanding of the comparisons between different planning methods.
         ![single-path and multi-path reasoning](assets/planning.png)
-        - **Figure 4:** Introduced a new chart that describes the evolutionary path of model capability acquisition from the "Machine Learning era" to the "Large Language Model era" and then to the "Agent era." Specifically, a new concept, "mechanism engineering," has been introduced, which, along with "parameter learning" and "prompt engineering," forms part of this evolutionary path.
+        - **Figure 4:** This is a new figure that describes the evolutionary path of model capability acquisition from the "Machine Learning era" to the "Large Language Model era" and then to the "Agent era." Specifically, a new concept, "mechanism engineering," has been introduced, which, along with "parameter learning" and "prompt engineering," forms part of this evolutionary path.
         ![Capabilities Acquisition](assets/capability.png)
 
     -  **🔍 Optimized Classification System**
@@ -22,13 +22,13 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         - 
   </details>
 
-- [8/23/2023] The first version of our survey has been released on arXiv.<br>
-    See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+- 🔥 [8/23/2023] The first version of our survey has been released on arXiv.<br>
+          See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
 <!--omit in the toc-->
 ## Table of Content
 
-- [🔥 Growth Trend of LLM-based Autonomous Agent](#-growth-trend-of-llm-based-autonomous-agent)
+- [📚 Growth Trend of LLM-based Autonomous Agent](#-growth-trend-of-llm-based-autonomous-agent)
 - [🤖 Construction of LLM-based Autonomous Agent](#-construction-of-llm-based-autonomous-agent)
 - [🌐 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
 - [📊 Evaluation on LLM-based Autonomous Agent](#-evaluation-on-llm-based-autonomous-agent)
@@ -40,7 +40,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 - [Contact Us](#contact-us)
 
 
-## 🔥 Growth Trend of LLM-based Autonomous Agent
+## 📚 Growth Trend of LLM-based Autonomous Agent
 ![Growth Trend](assets/trend.png)
 <hr>
 
