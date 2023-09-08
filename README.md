@@ -4,7 +4,6 @@ Autonomous agents are designed to accomplish specific objectives by self-guided 
 In particular, we explore the essential components of an AI agent, including a profile module, a memory module, a planning module, and an action module. We further investigate the applications of LLM-based autonomous agents in the domains of natural sciences, social sciences, and engineering.  Finally, we discuss the evaluation strategies in this field, including both subjective and objective methods.
 Our paper and this repository aim to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field.
 
-
 ## News
 - [9/8/2023] The second version of the paper is released on arXiv with updates on the following aspects:
   - <details>
