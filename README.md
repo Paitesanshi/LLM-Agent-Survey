@@ -38,11 +38,11 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 - [📍 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
 - [📊 Evaluation on LLM-based Autonomous Agent](#-evaluation-on-llm-based-autonomous-agent)
 - [🌐 More Comprehensive Summarization](#-more-comprehensive-summarization)
-- [👨‍👨‍👧‍👦 Maintainers](#maintainers)
-- [📚 Citation](#citation)
-- [💪 How to Contribute](#how-to-contribute)
-- [🫡 Acknowledgement](#acknowledgement)
-- [📧 Contact Us](#contact-us)
+- [👨‍👨‍👧‍👦 Maintainers](#-maintainers)
+- [📚 Citation](#-citation)
+- [💪 How to Contribute](#-how-to-contribute)
+- [🫡 Acknowledgement](#-acknowledgement)
+- [📧 Contact Us](#-contact-us)
 
 
 <!-- ## 📚 Growth Trend in the Field of LLM-based Autonomous Agent
@@ -414,7 +414,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
     </tr>
 </table>
 
-* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
+* More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
 * CA means the strategy of model capability acquisition.
 
 ## 📍 Applications of LLM-based Autonomous Agent
@@ -974,7 +974,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
     </tr> 
 </table>
 
-* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
+* More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
 
 ## 📊 Evaluation on LLM-based Autonomous Agent
 
@@ -1229,7 +1229,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
     </tr>
 </table>
 
-* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
+* More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
 
 <hr>
 
