@@ -9,7 +9,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 
 - 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
-    <summary>Specific Updates</summary>
+    <summary>Updated contents</summary>
 
     -  **📚 Additional References**
         - We have added 31 new works until 9/1/2023 to make the survey more comprehensive and up-to-date.
