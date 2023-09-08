@@ -1270,6 +1270,6 @@ We thank the following people for their valuable suggestions and contributions t
 
 ## 📧 Contact Us
 If you have any questions or suggestions, please contact us via:
-- Email: wanglei154@ruc.edu.cn
+- Email: wanglei154@ruc.edu.cn, xu.chen@ruc.edu.cn
 
 
