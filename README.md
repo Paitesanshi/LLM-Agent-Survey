@@ -37,7 +37,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 - [🤖 Construction of LLM-based Autonomous Agent](#-construction-of-llm-based-autonomous-agent)
 - [📍 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
 - [📊 Evaluation on LLM-based Autonomous Agent](#-evaluation-on-llm-based-autonomous-agent)
-- [🌐 More Comprehensive Summarization](#more-comprehensive-summarization)
+- [🌐 More Comprehensive Summarization](#-more-comprehensive-summarization)
 - [👨‍👨‍👧‍👦 Maintainers](#maintainers)
 - [📚 Citation](#citation)
 - [💪 How to Contribute](#how-to-contribute)
