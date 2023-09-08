@@ -5,7 +5,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 ## News
 - [9/8/2023] The second version of the paper is released on arXiv with updates on the following aspects:
-  
+- <details>
 
     <summary>Latest Updates</summary>
 
