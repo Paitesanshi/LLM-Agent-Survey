@@ -35,14 +35,14 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 
 <!-- - [Growth Trend in the Field of LLM-based Autonomous Agent](#-growth-trend-of-llm-based-autonomous-agent)-->
 - [🤖 Construction of LLM-based Autonomous Agent](#-construction-of-llm-based-autonomous-agent)
-- [🌐 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
+- [📍 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
 - [📊 Evaluation on LLM-based Autonomous Agent](#-evaluation-on-llm-based-autonomous-agent)
-- [📚 More Comprehensive Summarization](#more-comprehensive-summarization)
-- [Maintainers](#maintainers)
-- [Citation](#citation)
-- [How to Contribute](#how-to-contribute)
-- [Acknowledgement](#acknowledgement)
-- [Contact Us](#contact-us)
+- [🌐 More Comprehensive Summarization](#more-comprehensive-summarization)
+- [👨‍👨‍👧‍👦 Maintainers](#maintainers)
+- [📚 Citation](#citation)
+- [💪 How to Contribute](#how-to-contribute)
+- [🫡 Acknowledgement](#acknowledgement)
+- [📧 Contact Us](#contact-us)
 
 
 <!-- ## 📚 Growth Trend in the Field of LLM-based Autonomous Agent
@@ -417,7 +417,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 * More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
 * CA means the strategy of model capability acquisition.
 
-## 🌐 Applications of LLM-based Autonomous Agent
+## 📍 Applications of LLM-based Autonomous Agent
 
 <table>
     <tr>
@@ -1233,18 +1233,17 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 
 <hr>
 
-## More Comprehensive Summarization
+## 🌐 More Comprehensive Summarization
 
 We are maintaining an [interactive table](https://abyssinian-molybdenum-f76.notion.site/237e9f7515d543c0922c74f4c3012a77?v=0a309e53d6454afcbe7a5a7e169be0f9&pvs=4) that contains more comprehensive papers related to LLM-based Agents. This table includes details such as tags, authors, publication date, and more, allowing you to sort, filter, and find the papers of interest to you.
 ![Complete Table](assets/table.png)
 
-## Maintainers
+## 👨‍👨‍👧‍👦 Maintainers
 - Lei Wang@[Paitesanshi](https://github.com/Paitesanshi)
 - Chen Ma@[Uily](https://github.com/Yilu114)
 - Xueyang Feng@[XueyangFeng](https://github.com/XueyangFeng)
 
-
-## Citation
+## 📚 Citation
 If you find this survey useful, please cite our paper:
 ```
 @misc{wang2023survey,
@@ -1256,16 +1255,20 @@ If you find this survey useful, please cite our paper:
       primaryClass={cs.AI}
 }
 ```
-## How to Contribute
-We kindly invite contributions to this survey and interactive table. If you have a paper or are aware of relevant research that should be incorporated, please contribute via pull requests, issues, email, or other suitable methods.
-## Acknowledgement
+
+
+## 💪 How to Contribute
+If you have a paper or are aware of relevant research that should be incorporated, please contribute via pull requests, issues, email, or other suitable methods.
+
+
+## 🫡 Acknowledgement
 We thank the following people for their valuable suggestions and contributions to this survey:
 - Yifan Song[@Yifan-Song793](https://github.com/Yifan-Song793)
 - Qichen Zhao[@Andrewzh112](https://github.com/Andrewzh112)
 - Ikko E. Ashimine[@eltociear](https://github.com/eltociear)
 
 
-## Contact Us
+## 📧 Contact Us
 If you have any questions or suggestions, please contact us via:
 - Email: wanglei154@ruc.edu.cn
 
