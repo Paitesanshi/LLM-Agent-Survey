@@ -5,7 +5,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
 
 ## News
 - [9/8/2023] The second version of our survey has been released on arXiv.
- - <details>
+   <details>
     <summary>Latest Updates</summary>
 
     -  **📚 Added References**
@@ -23,7 +23,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
   </details>
 
 - [8/23/2023] The first version of our survey has been released on arXiv.
-- See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+    See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
 <!--omit in the toc-->
 ## Table of Content
