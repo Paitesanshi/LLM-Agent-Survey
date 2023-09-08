@@ -8,7 +8,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
    <details>
     <summary>Latest Updates</summary>
 
-    -  **📚 Added References**
+    -  **📚 Additional References**
         - Added 31 new works until 9/1/2023, to enrich the literature support.
 
     -  **📊 New Figures**
