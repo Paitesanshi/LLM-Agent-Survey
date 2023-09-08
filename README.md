@@ -1,9 +1,12 @@
 # A Survey on LLM-based Autonomous Agents
 
 Autonomous agents are designed to accomplish specific objectives by self-guided instructions. With the advent and prospering of large language models (LLMs), there is an expanding frontier in using LLMs as core controllers for these autonomous agents. While previous studies have achieved remarkable successes, there are still very few efforts to systematically analyze these studies from a global perspective.  This repository houses a comprehensive survey that fills this gap, focusing on LLM-based autonomous agents in their construction, applications, and evaluation strategies. In particular, we explore the essential components of an AI agent, including a profile module, a memory module, a planning module, and an action module. We further investigate the applications of LLM-based autonomous agents in the domains of natural sciences, social sciences, and engineering.  Finally, we discuss the evaluation strategies in this field, including both subjective and objective methods.
-Our paper and this repository aim to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field.
+Our paper and this repository aim to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field. 
 
-## News
+Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+
+## Update Records
+
 - 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
     <summary>Specific Updates</summary>
@@ -22,7 +25,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
   </details>
 
 - 🔥 [8/23/2023] The first version of our survey has been released on arXiv.<br>
-          See [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+          
 
 <!--omit in the toc-->
 ## Table of Content
