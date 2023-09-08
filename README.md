@@ -9,7 +9,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
     <summary>Specific Updates</summary>
 
     -  **📚 Additional References**
-        - Added 31 new works until 9/1/2023, to enrich the literature support.
+        - We have added 31 new works until 9/1/2023 to make the survey more comprehensive and up-to-date.
 
     -  **📊 New Figures**
         - **Figure 3:** This is a new figure illustrating the differences and similarities between various planning approaches. This helps in gaining a clearer understanding of the comparisons between different planning methods.
@@ -18,8 +18,7 @@ Our paper and this repository aim to serve as a resource for researchers and pra
         ![Capabilities Acquisition](assets/capability.png)
 
     -  **🔍 Optimized Classification System**
-        - Made appropriate modifications to the existing classification system to make it more logical and organized. This will assist in better organizing and presenting the content of the document.
-        - 
+        - We have slightly modified the classification system in our survey to make it more logical and organized. 
   </details>
 
 - 🔥 [8/23/2023] The first version of our survey has been released on arXiv.<br>
