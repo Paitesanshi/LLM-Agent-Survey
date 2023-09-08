@@ -411,7 +411,8 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
     </tr>
 </table>
 
-* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization). 
+* More papers can be found at [More comprehensive Summarization](#more-comprehensive-summarization).
+* CA means the strategy of model capability acquisition.
 
 ## 🌐 Applications of LLM-based Autonomous Agent
 
