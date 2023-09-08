@@ -30,7 +30,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 <!--omit in the toc-->
 ## Table of Content
 
-- [Growth Trend of LLM-based Autonomous Agent](#-growth-trend-of-llm-based-autonomous-agent)
+- [Growth Trend in the Field of LLM-based Autonomous Agent](#-growth-trend-of-llm-based-autonomous-agent)
 - [🤖 Construction of LLM-based Autonomous Agent](#-construction-of-llm-based-autonomous-agent)
 - [🌐 Applications of LLM-based Autonomous Agent](#-applications-of-llm-based-autonomous-agent)
 - [📊 Evaluation on LLM-based Autonomous Agent](#-evaluation-on-llm-based-autonomous-agent)
@@ -42,7 +42,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 - [Contact Us](#contact-us)
 
 
-## 📚 Growth Trend of LLM-based Autonomous Agent
+## 📚 Growth Trend in the Field of LLM-based Autonomous Agent
 ![Growth Trend](assets/trend.png)
 <hr>
 
