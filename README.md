@@ -259,6 +259,17 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://github.com/ur-whitelab/chemcrow-public">Code</a></td>
     </tr>
     <tr>
+        <td align='center'>GeneGPT</td>
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>-</td> 
+        <td align='center'>w/o feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>-</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2304.09667">Paper</a></td>
+        <td align='center'><a href="https://github.com/ncbi/GeneGPT">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>OpenAGI</td>
         <td align='center'>-</td> 
         <td align='center'>-</td> 
