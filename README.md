@@ -633,7 +633,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>Social Simulation</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
-        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.10848">Paper</a></td>
         <td align='center'><a href="https://githuba.com/OpenBMB/AgentVerse">Code</a></td>
     </tr>     
     <tr>
