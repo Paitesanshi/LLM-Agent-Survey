@@ -4,7 +4,7 @@
 
 Autonomous agents are designed to achieve specific objectives through self-guided instructions. With the emergence and growth of large language models (LLMs), there is a growing trend in utilizing LLMs as fundamental controllers for these autonomous agents. While previous studies in this field have achieved remarkable successes, they remain independent proposals with little effort devoted to a systematic analysis. To bridge this gap, we conduct a comprehensive survey study, focusing on the construction, application, and evaluation of LLM-based autonomous agents. In particular, we first explore the essential components of an AI agent, including a profile module, a memory module, a planning module, and an action module. We further investigate the application of LLM-based autonomous agents in the domains of natural sciences, social sciences, and engineering. Subsequently, we delve into a discussion of the evaluation strategies employed in this field, encompassing both subjective and objective methods. Our survey aims to serve as a resource for researchers and practitioners, providing insights, related references, and continuous updates on this exciting and rapidly evolving field. 
 
-** To our knowledge, this is the first systematic survey paper in the field of LLM-based autonomous agents.
+**To our knowledge, this is the first systematic survey paper in the field of LLM-based autonomous agents.**
 
 Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
 
