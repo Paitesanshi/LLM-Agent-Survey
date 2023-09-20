@@ -56,7 +56,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 <hr> -->
 
 ## 🤖 Construction of LLM-based Autonomous Agent
-![Architecture Design](assets/architecture.png)
+![Architecture Design](assets/architecture-1.png)
 
 <table>
     <tr>
