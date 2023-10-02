@@ -203,8 +203,8 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>w/ feedback</td>  
         <td align='center'>w/ tools</td> 
         <td align='center'>w/o fine-tuning</td> 
-        <td align='center'><a href="url">Paper</a></td>
-        <td align='center'><a href="url">Code</a></td>
+        <td align='center'><a href="https://arxiv.org/abs/2304.08244">Paper</a></td>
+        <td align='center'><a href="url">-</a></td>
     </tr>
     <tr>
         <td align='center'>ViperGPT</td> 
