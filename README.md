@@ -1236,7 +1236,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
      <td align='center'>Society Simulation</td>
      <td align='center'>-</td>
      <td align='center'><a href="http://arxiv.org/abs/2310.02124">Paper</a></td>
-     <td align='center'<a href="https://github.com/zjunlp/MachineSoM">Code</a></td>
+     <td align='center'><a href="https://github.com/zjunlp/MachineSoM">Code</a></td>
     </tr>
 </table>
 
