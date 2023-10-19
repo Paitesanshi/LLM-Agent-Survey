@@ -1234,7 +1234,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>MintBench</td>
         <td align='center'>-</td>
         <td align='center'>Multi-turn Interaction with Tools and Language Feedback</td>
-        <td align='center'>&check; <a href="https://xingyaoww.github.io/mint-bench/">[Leaderboard]</a></td>
+        <td align='center'>&check;</td>
         <td align='center'><a href="https://arxiv.org/abs/2309.10691">Paper</a></td>
         <td align='center'><a href="https://github.com/xingyaoww/mint-bench">Code</a></td>
     </tr>
