@@ -192,7 +192,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>w/ feedback</td>  
         <td align='center'>w/o tools</td> 
         <td align='center'>-</td>  
-        <td align='center'><a href="https://arxiv.org/abs/2303.17660">Paper</a></td>
+        <td align='center'><a href="https://arxiv.org/abs/2303.17760">Paper</a></td>
         <td align='center'><a href="https://github.com/camel-ai/camel">Code</a></td>
     </tr>
     <tr>
