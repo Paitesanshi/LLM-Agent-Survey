@@ -140,6 +140,18 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://arxiv.org/abs/2210.03629">Paper</a></td>
         <td align='center'><a href="https://github.com/ysymyth/ReAct">Code</a></td>
     </tr>
+        <tr>
+        <td align='center'>LLM Planner</td> 
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>Environment feedback</td> 
+        <td align='center'>12/2022</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2212.04088">Paper</a></td>
+        <td align='center'><a href="https://dki-lab.github.io/LLM-Planner">Code</a></td>
+    </tr>
     <tr>
         <td align='center'>MALLM</td> 
         <td align='center'>-</td>  
@@ -1133,6 +1145,15 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>&check;</td>
         <td align='center'><a href="https://arxiv.org/abs/2305.13455">Paper</a></td>
         <td align='center'><a href="https://github.com/clp-research/clembench">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Mind2Web</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'>06/2023</td>
+        <td align='center'><a href="https://arxiv.org/abs/2306.06070">Paper</a></td>
+        <td align='center'><a href="https://github.com/OSU-NLP-Group/Mind2Web">Code</a></td>
     </tr>
     <tr>
         <td align='center'>Dialop</td>
