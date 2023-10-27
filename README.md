@@ -146,7 +146,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>-</td>  
         <td align='center'>-</td>  
         <td align='center'>w/ feedback</td> 
-        <td align='center'>wo/ tools</td> 
+        <td align='center'>w/o tools</td> 
         <td align='center'>Environment feedback</td> 
         <td align='center'>12/2022</td> 
         <td align='center'><a href="https://arxiv.org/abs/2212.04088">Paper</a></td>
