@@ -439,6 +439,17 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr>
    <tr>
+        <td align='center'>LEO</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>-</td>  
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>w/ fine-tuning</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2311.12871">Paper</a></td>
+        <td align='center'><a href="https://embodied-generalist.github.io">Code</a></td>
+    </tr>
+   <tr>
         <td align='center'>JARVIS-1</td>  
         <td align='center'>-</td>  
         <td align='center'>Read/Write/<br>Reflection</td>
@@ -1026,6 +1037,14 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'><a href="https://arxiv.org/abs/2309.09971">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+   <tr>
+        <td align='center'>LEO</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'><a href="https://arxiv.org/abs/2311.12871">Paper</a></td>
         <td align='center'>-</td>
     </tr>  
    <tr>
