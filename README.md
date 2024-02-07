@@ -438,6 +438,28 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://arxiv.org/abs/2308.00352">Paper</a></td>
         <td align='center'><a href="https://github.com/geekan/MetaGPT">Code</a></td>
     </tr>
+   <tr>
+        <td align='center'>JARVIS-1</td>  
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write/<br>Reflection</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>w/o fine-tuning</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2311.05997">Paper</a></td>
+        <td align='center'><a href="https://github.com/CraftJarvis/JARVIS-1">Code</a></td>
+    </tr>
+   <tr>
+        <td align='center'>CLOVA</td>  
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write/<br>Reflection</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>w/ fine-tuning</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2312.10908">Paper</a></td>
+        <td align='center'><a href="https://clova-tool.github.io/">Code</a></td>
+    </tr>
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
@@ -998,6 +1020,30 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://arxiv.org/abs/2308.11339">Paper</a></td>
         <td align='center'>-</td>
     </tr> 
+    <tr>
+        <td align='center'>MindAgent</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'><a href="https://arxiv.org/abs/2309.09971">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+   <tr>
+        <td align='center'>JARVIS-1</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'><a href="https://arxiv.org/abs/2311.05997">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
+   <tr>
+        <td align='center'>CLOVA</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'><a href="https://arxiv.org/abs/2312.10908">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>  
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
@@ -1269,6 +1315,22 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>&check;</td>
         <td align='center'><a href="https://arxiv.org/abs/2309.10691">Paper</a></td>
         <td align='center'><a href="https://github.com/xingyaoww/mint-bench">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>MindAgent</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br>Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'><a href="https://arxiv.org/abs/2309.09971">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>JARVIS-1</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation</td>
+        <td align='center'>&check;</td>
+        <td align='center'><a href="https://arxiv.org/abs/2311.05997">Paper</a></td>
+        <td align='center'>-</td>
     </tr>
 </table>
 
