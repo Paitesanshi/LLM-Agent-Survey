@@ -915,6 +915,14 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'><a href="https://sayplan.github.io/">Code</a></td>
     </tr> 
     <tr>
+        <td align='center'>aiflows</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS & SE</td>
+        <td align='center'><a href="https://arxiv.org/abs/2308.01285">Paper</a></td>
+        <td align='center'><a href="https://github.com/epfl-dlab/aiflows">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>ToolLLM</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
