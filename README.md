@@ -163,6 +163,17 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>-</td>
     </tr>
     <tr>
+        <td align='center'>aiflows</td> 
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write/<br>Reflection</td> 
+        <td align='center'>Hybrid</td> 
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/ tools</td> 
+        <td align='center'>-</td>   
+        <td align='center'><a href="https://arxiv.org/abs/2308.01285">Paper</a></td>
+        <td align='center'><a href="https://github.com/epfl-dlab/aiflows">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>DEPS</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>  
