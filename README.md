@@ -11,9 +11,8 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents]([https:/
 
 ## Update Records
 
-- 🔥 [9/28/2023] We have compiled and sum![image](https://github.com/Paitesanshi/LLM-Agent-Survey/assets/9445850/e77552d1-4fe3-417e-be6d-8f06e37675a7)
-marized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
-
+- 🔥 [9/28/2023] We have compiled and summarized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
+  
 - 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
     <summary>Updated contents</summary>
