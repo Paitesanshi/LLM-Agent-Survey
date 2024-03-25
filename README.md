@@ -6,12 +6,13 @@ Autonomous agents are designed to achieve specific objectives through self-guide
 
 **To our knowledge, this is the first systematic survey paper in the field of LLM-based autonomous agents.**
 
-Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+Paper link:  [A Survey on Large Language Model based Autonomous Agents]([https://arxiv.org/abs/2308.11432](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40231-1))
 
 
 ## Update Records
 
-- 🔥 [9/28/2023] We have compiled and summarized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
+- 🔥 [9/28/2023] We have compiled and sum![image](https://github.com/Paitesanshi/LLM-Agent-Survey/assets/9445850/e77552d1-4fe3-417e-be6d-8f06e37675a7)
+marized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
 
 - 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
