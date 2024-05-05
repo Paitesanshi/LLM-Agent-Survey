@@ -1406,7 +1406,7 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>JARVIS-1</td>
         <td align='center'>-</td>
         <td align='center'>Environment Simulation</td>
-        <td align='center'>&check;</td>
+        <td align='center'>-</td>
         <td align='center'><a href="https://arxiv.org/abs/2311.05997">Paper</a></td>
         <td align='center'>-</td>
     </tr>
