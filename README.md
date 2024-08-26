@@ -49,13 +49,6 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
 - [📧 Contact Us](#-contact-us)
 
 
-<!-- ## 📚 Growth Trend in the Field of LLM-based Autonomous Agent
-![Growth Trend](assets/trend.png)
-<hr>  -->
-
-<!-- ## 📋 Structure of the Survey
-![Structure](assets/survey.png)
-<hr> -->
 
 ## 🤖 Construction of LLM-based Autonomous Agent
 ![Architecture Design](assets/architecture-1.png)
@@ -1117,10 +1110,17 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>AgentTrust</td>
         <td align='center'>-</td>
         <td align='center'>Social Simulation</td>
-        <td align='center'>&check;</td>
+        <td align='center'>-</td>
         <td align='center'><a href="https://arxiv.org/abs/2402.04559">Paper</a></td>
         <td align='center'><a href="https://www.camel-ai.org/research/agent-trust">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>embodied-agents</td>
         <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>Robotics & Embodied AI</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://github.com/mbodiai/embodied-agents">Code</a></td>
     </tr>
 </table>
 
@@ -1286,7 +1286,6 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>-</td>
         <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
         <td align='center'>&check;</td>
-        <td align='center'>06/2023</td>
         <td align='center'><a href="https://arxiv.org/abs/2306.06070">Paper</a></td>
         <td align='center'><a href="https://github.com/OSU-NLP-Group/Mind2Web">Code</a></td>
     </tr>
@@ -1409,6 +1408,22 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>-</td>
         <td align='center'><a href="https://arxiv.org/abs/2311.05997">Paper</a></td>
         <td align='center'>-</td>
+    </tr>
+    <tr>
+        <td align='center'>TimeCharac</td>  
+        <td align='center'>GPT Annotation</td>
+        <td align='center'>-</td>
+        <td align='center'>&check;</td>
+        <td align='center'><a href="https://arxiv.org/abs/2405.18027">Paper</a></td>
+        <td align='center'><a href="https://ahnjaewoo.github.io/timechara/">Code</a></td>
+    </tr>
+     <tr>
+        <td align='center'>AppWorld</td>  
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation</td>
+        <td align='center'>&check;</td>
+        <td align='center'><a href="https://arxiv.org/abs/2407.18901">Paper</a></td>
+        <td align='center'><a href="https://github.com/stonybrooknlp/appworld/">Code</a></td>
     </tr>
 </table>
 
