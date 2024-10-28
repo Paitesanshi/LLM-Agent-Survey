@@ -1117,11 +1117,18 @@ Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://
         <td align='center'>AgentTrust</td>
         <td align='center'>-</td>
         <td align='center'>Social Simulation</td>
-        <td align='center'>&check;</td>
-        <td align='center'><a href="https://arxiv.org/abs/2402.04559">Paper</a></td>
-        <td align='center'><a href="https://www.camel-ai.org/research/agent-trust">Code</a></td>
         <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2402.04559">Paper</a></td>
+        <td align='center'><a href="https://www.camel-ai.org/research/agent-trust">Code</a></td> 
     </tr>
+    <tr>
+        <td align='center'>AgentOccam</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>CS&SE</td>
+        <td align='center'><a href="https://arxiv.org/pdf/2410.13825">Paper</a></td>
+        <td align='center'>-</td>
+    </tr> 
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
