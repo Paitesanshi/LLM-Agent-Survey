@@ -6,7 +6,7 @@ Autonomous agents are designed to achieve specific objectives through self-guide
 
 **📍 This is the first released and published survey paper in the field of LLM-based autonomous agents.**
 
-Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40231-1) 
+Paper link:  [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) 
 
 
 ## Update Records
