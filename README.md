@@ -12,8 +12,6 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
 ## Update Records
 - 🔥 [25/3/2024] Our survey paper has been accepted by Frontiers of Computer Science, which is the first published survey paper in the field of LLM-based agents.
   
-- 🔥 [9/28/2023] We have compiled and summarized papers related to LLM-based Agents that have been accepted by Neurips 2023 in the repository [LLM-Agent-Paper-Digest](https://github.com/XueyangFeng/LLM-Agent-Paper-Digest). This repository will continue to be updated with accepted agent-related papers in the future.
-  
 - 🔥 [9/8/2023] The second version of our survey has been released on arXiv.
    <details>
     <summary>Updated contents</summary>
