@@ -497,6 +497,17 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'><a href="https://github.com/zhao-ht/LearnAct">Code</a></td>
     </tr>
         <tr>
+    <tr>
+        <td align='center'>CoMAS</td>  
+        <td align='center'>-</td>  
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td> 
+        <td align='center'>w/o tools</td> 
+        <td align='center'>w/ fine-tuning</td> 
+        <td align='center'><a href="https://arxiv.org/abs/2510.08529">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
         <td align='center'>AgentSquare</td>  
         <td align='center'>-</td>  
         <td align='center'>Read/Write</td>
@@ -712,6 +723,14 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'>Psychology </td>
         <td align='center'>-</td>
         <td align='center'>-</td>
+    <tr>
+        <td align='center'>aiXiv</td>
+        <td align='center'>Research Assistant</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2508.15126">Paper</a></td>
+        <td align='center'><a href="https://github.com/aixiv-org/aiXiv">Code</a></td>
+    </tr>
         <td align='center'><a href="https://arxiv.org/abs/2305.16867">Paper</a></td>
         <td align='center'>-</td>
     </tr>
@@ -796,6 +815,22 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'><a href="https://github.com/AntonOsika/gpt-engineer">Code</a></td>
     </tr> 
     <tr>
+    <tr>
+        <td align='center'>GenoTEX</td>
+        <td align='center'>-</td>
+        <td align='center'>Experiment Assistant;<br>Data Management</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2406.15341">Paper</a></td>
+        <td align='center'><a href="https://github.com/Liu-Hy/GenoTEX">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>GenoMAS</td>
+        <td align='center'>-</td>
+        <td align='center'>Experiment Assistant;<br>Data Management</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2507.21035">Paper</a></td>
+        <td align='center'><a href="https://github.com/Liu-Hy/GenoMAS">Code</a></td>
+    </tr>
         <td align='center'>Grossman et al.</td>
         <td align='center'>-</td>
         <td align='center'>Experiment Assistant;<br>Science Education</td>
@@ -1126,6 +1161,14 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
     <tr>
         <td align='center'>embodied-agents</td>
         <td align='center'>-</td>
+    <tr>
+        <td align='center'>DMAS</td>
+        <td align='center'>-</td>
+        <td align='center'>Multi-task Evaluation</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2504.07461">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
         <td align='center'>-</td>
         <td align='center'>Robotics & Embodied AI</td>
         <td align='center'>-</td>
