@@ -486,6 +486,17 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'><a href="https://clova-tool.github.io/">Code</a></td>
     </tr>
     <tr>
+        <td align='center'>OpenAct</td>
+        <td align='center'>-</td>
+        <td align='center'>Read/Write</td>
+        <td align='center'>Hybrid</td>
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>w/o fine-tuning</td>
+        <td align='center'><a href="https://arxiv.org/abs/2312.17294">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/OpenAct">Code</a></td>
+    </tr>
+    <tr>
         <td align='center'>LearnAct</td>  
         <td align='center'>-</td>  
         <td align='center'>-</td>
@@ -506,6 +517,17 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'>-</td> 
         <td align='center'><a href="https://arxiv.org/abs/2410.06153">Paper</a></td>
         <td align='center'><a href="https://github.com/tsinghua-fib-lab/agentsquare">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>Adapting While Learning</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>w/o feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>w/ fine-tuning</td>
+        <td align='center'><a href="https://arxiv.org/abs/2411.00412">Paper</a></td>
+        <td align='center'><a href="https://github.com/Rose-STL-Lab/Adapting-While-Learning">Code</a></td>
     </tr>
 </table>
 
