@@ -644,6 +644,14 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'><a href="https://github.com/joonspk-research/generative_agents">Code</a></td>
     </tr>    
     <tr>
+        <td align='center'>CityReal</td>
+        <td align='center'>Social Simulation</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'><a href="https://arxiv.org/abs/2608.16897">Paper</a></td>
+        <td align='center'>-</td>
+    </tr>
+    <tr>
         <td align='center'>SCG</td>
         <td align='center'>-</td>
         <td align='center'>-</td>
