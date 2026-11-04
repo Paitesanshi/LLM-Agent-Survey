@@ -507,6 +507,17 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'><a href="https://arxiv.org/abs/2410.06153">Paper</a></td>
         <td align='center'><a href="https://github.com/tsinghua-fib-lab/agentsquare">Code</a></td>
     </tr>
+    <tr>
+        <td align='center'>ToolMaster</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>-</td>
+        <td align='center'>w/ feedback</td>
+        <td align='center'>w/ tools</td>
+        <td align='center'>w/ fine-tuning</td>
+        <td align='center'><a href="https://arxiv.org/abs/2601.12762">Paper</a></td>
+        <td align='center'><a href="https://github.com/NEUIR/ToolMaster">Code</a></td>
+    </tr>
 </table>
 
 * More papers can be found at [More comprehensive Summarization](#-more-comprehensive-summarization).
@@ -1441,6 +1452,14 @@ Paper link: [A Survey on Large Language Model based Autonomous Agents](https://a
         <td align='center'>&check;</td>
         <td align='center'><a href="https://arxiv.org/abs/2407.18901">Paper</a></td>
         <td align='center'><a href="https://github.com/stonybrooknlp/appworld/">Code</a></td>
+    </tr>
+    <tr>
+        <td align='center'>EC2-Bench</td>
+        <td align='center'>-</td>
+        <td align='center'>Environment Simulation;<br> Multi-task Evaluation</td>
+        <td align='center'>&check;</td>
+        <td align='center'><a href="https://arxiv.org/abs/2610.17816">Paper</a></td>
+        <td align='center'><a href="https://github.com/OpenBMB/EC2-Bench">Code</a></td>
     </tr>
 </table>
 
